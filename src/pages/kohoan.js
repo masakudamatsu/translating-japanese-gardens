@@ -20,7 +20,7 @@ import Hr from '../elements/Hr';
 import Spacer from '../elements/Spacer';
 import Span from '../elements/Span';
 import SubSection from '../elements/SubSection';
-import Youtube from '../components/YouTube';
+import Youtube from '../components/Youtube';
 
 import {index, kohoan} from 'src/utils/metadata';
 
