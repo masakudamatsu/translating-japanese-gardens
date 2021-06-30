@@ -4,6 +4,6 @@ module.exports = {
   target: 'serverless',
   images: {
     loader: 'cloudinary',
-    path: 'https://res.cloudinary.com/masakudamatsu/image/upload/',
+    path: 'https://res.cloudinary.com/masakudamatsu/image/upload/v1625033277',
   },
 };
