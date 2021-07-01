@@ -1,0 +1,12 @@
+name: 'Testing the entire website'
+on: push
+jobs:
+  test-the-entire-website:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout the repo'
+        uses: actions/checkout@v2
+      - name: 'Install Node'
+        uses: actions/setup-node@v1
+      - name: 'Run tests'
+        run: npm run ci
