@@ -3,6 +3,9 @@
 # dependencies
 node_modules/
 
+# environment variables
+.env
+
 # testing with Cypress
 cypress/videos/
 cypress/screenshots/
