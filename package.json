@@ -1,7 +1,7 @@
 {
-  "name": "nextjs-template",
+  "name": "translating-japanese-gardens",
   "version": "1.0.0",
-  "description": "A template repository for Next.js web dev projects",
+  "description": "Source code for Translating Japanese Gardens, a website that hosts a collection of essays on historical landscape design in Japan",
   "main": "pages/index.js",
   "scripts": {
     "build": "next build",
@@ -37,17 +37,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/masakudamatsu/nextjs-template.git"
+    "url": "git+https://github.com/masakudamatsu/translating-japanese-gardens.git"
   },
   "keywords": [
-    "Next.js"
+    "Japanese gardens",
+    "Landscape design"
   ],
   "author": "Masa Kudamatsu <masakudamatsu@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/masakudamatsu/nextjs-template/issues"
+    "url": "https://github.com/masakudamatsu/translating-japanese-gardens/issues"
   },
-  "homepage": "https://github.com/masakudamatsu/nextjs-template#readme",
+  "homepage": "https://github.com/masakudamatsu/translating-japanese-gardens",
   "dependencies": {
     "body-scroll-lock": "3.1.5",
     "next": "10.2.3",
