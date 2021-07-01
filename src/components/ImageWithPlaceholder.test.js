@@ -31,14 +31,14 @@ describe('renders the UI correctly during the loading time', () => {
         text-align: left;
       }
 
-      .Main__Kohoan-sc-55dih-2 .c0 {
+      .Main__Kohoan-sc-1ebpejr-2 .c0 {
         margin: 0 auto;
         max-width: 38.057rem;
         padding-left: 1.0625rem;
         padding-right: 1.0625rem;
       }
 
-      .Main__Ryoanji-sc-55dih-1 .c0 {
+      .Main__Ryoanji-sc-1ebpejr-1 .c0 {
         margin: 0 auto;
         max-width: 38.9424rem;
         padding-left: 1.3281rem;
@@ -69,7 +69,7 @@ describe('renders the UI correctly during the loading time', () => {
         width: 100%;
       }
 
-      .Main__Kohoan-sc-55dih-2 .c1 {
+      .Main__Kohoan-sc-1ebpejr-2 .c1 {
         height: calc(100% - 7px);
         background-color: rgb(17,17,17);
         background-image: radial-gradient( circle farthest-side at 50% 150%, rgb(17,17,17) 16.666666666666664%, rgb(124,124,124) 20.666666666666664%, rgb(124,124,124) 21%, rgb(17,17,17) 25%, rgb(17,17,17) 33.33333333333333%, rgb(124,124,124) 37.33333333333333%, rgb(124,124,124) 37.666666666666664%, rgb(17,17,17) 41.666666666666664%, rgb(17,17,17) 50%, rgb(124,124,124) 54%, rgb(124,124,124) 54.33333333333333%, rgb(17,17,17) 58.33333333333333%, rgb(17,17,17) 66.66666666666666%, transparent 66.66666666666666%, transparent ),radial-gradient( circle farthest-corner at 0% 100%, rgb(17,17,17) 12.5%, rgb(124,124,124) 15.5%, rgb(124,124,124) 15.75%, rgb(17,17,17) 18.75%, rgb(17,17,17) 25%, rgb(124,124,124) 28%, rgb(124,124,124) 28.25%, rgb(17,17,17) 31.25%, rgb(17,17,17) 37.5%, rgb(124,124,124) 40.5%, rgb(124,124,124) 40.75%, rgb(17,17,17) 43.75%, rgb(17,17,17) 50%, transparent 50%, transparent ),radial-gradient( circle farthest-corner at 100% 100%, rgb(17,17,17) 12.5%, rgb(124,124,124) 15.5%, rgb(124,124,124) 15.75%, rgb(17,17,17) 18.75%, rgb(17,17,17) 25%, rgb(124,124,124) 28%, rgb(124,124,124) 28.25%, rgb(17,17,17) 31.25%, rgb(17,17,17) 37.5%, rgb(124,124,124) 40.5%, rgb(124,124,124) 40.75%, rgb(17,17,17) 43.75%, rgb(17,17,17) 50%, transparent 50%, transparent ),radial-gradient(circle farthest-corner at 50% 50%, rgb(17,17,17) 25%, rgb(124,124,124) 31%, rgb(124,124,124) 31.5%, rgb(17,17,17) 37.5%, rgb(17,17,17) 50%, rgb(124,124,124) 56%, rgb(124,124,124) 56.5%, rgb(17,17,17) 62.5%, rgb(17,17,17) 75%, rgb(124,124,124) 81%, rgb(124,124,124) 81.5%, rgb(17,17,17) 87.5%, rgb(17,17,17) 100%, transparent 100%, transparent );
@@ -77,7 +77,7 @@ describe('renders the UI correctly during the loading time', () => {
         background-size: 3.031088913245535rem 1.75rem;
       }
 
-      .Main__Ryoanji-sc-55dih-1 .c1 {
+      .Main__Ryoanji-sc-1ebpejr-1 .c1 {
         height: calc(100% - 8px);
         background-color: rgb(240,240,240);
         background-image: radial-gradient( circle closest-side,rgba(255,255,255,0) 91%,rgb(255,255,255) 99%,rgba(255,255,255,0) ),radial-gradient( circle closest-side,rgb(240,240,240) 91%,rgb(255,255,255) 99%,rgb(240,240,240) );
@@ -87,53 +87,53 @@ describe('renders the UI correctly during the loading time', () => {
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Kohoan-sc-55dih-2 .c0 {
+        .Main__Kohoan-sc-1ebpejr-2 .c0 {
           max-width: 47.5584rem;
         }
       }
 
       @media only screen and (min-width:30.7948rem) {
-        .Main__Kohoan-sc-55dih-2 .c0 {
+        .Main__Kohoan-sc-1ebpejr-2 .c0 {
           padding-left: 1.7708rem;
           padding-right: 1.7708rem;
         }
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Kohoan-sc-55dih-2 .c0 {
+        .Main__Kohoan-sc-1ebpejr-2 .c0 {
           padding-left: 2.4609rem;
           padding-right: 2.4609rem;
         }
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Ryoanji-sc-55dih-1 .c0 {
+        .Main__Ryoanji-sc-1ebpejr-1 .c0 {
           max-width: 48.6522rem;
         }
       }
 
       @media only screen and (min-width:31.6802rem) {
-        .Main__Ryoanji-sc-55dih-1 .c0 {
+        .Main__Ryoanji-sc-1ebpejr-1 .c0 {
           padding-left: 2.2135rem;
           padding-right: 2.2135rem;
         }
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Ryoanji-sc-55dih-1 .c0 {
+        .Main__Ryoanji-sc-1ebpejr-1 .c0 {
           padding-left: 3.0078rem;
           padding-right: 3.0078rem;
         }
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Kohoan-sc-55dih-2 .c1 {
+        .Main__Kohoan-sc-1ebpejr-2 .c1 {
           height: calc(100% - 10px);
         }
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Ryoanji-sc-55dih-1 .c1 {
+        .Main__Ryoanji-sc-1ebpejr-1 .c1 {
           height: calc(100% - 12px);
         }
       }
@@ -184,14 +184,14 @@ describe('changes UI by prop values', () => {
         text-align: left;
       }
 
-      .Main__Kohoan-sc-55dih-2 .c3 {
+      .Main__Kohoan-sc-1ebpejr-2 .c3 {
         margin: 0 auto;
         max-width: 38.057rem;
         padding-left: 1.0625rem;
         padding-right: 1.0625rem;
       }
 
-      .Main__Ryoanji-sc-55dih-1 .c3 {
+      .Main__Ryoanji-sc-1ebpejr-1 .c3 {
         margin: 0 auto;
         max-width: 38.9424rem;
         padding-left: 1.3281rem;
@@ -231,7 +231,7 @@ describe('changes UI by prop values', () => {
         width: 100%;
       }
 
-      .Main__Kohoan-sc-55dih-2 .c4 {
+      .Main__Kohoan-sc-1ebpejr-2 .c4 {
         height: calc(100% - 7px);
         background-color: rgb(17,17,17);
         background-image: radial-gradient( circle farthest-side at 50% 150%, rgb(17,17,17) 16.666666666666664%, rgb(124,124,124) 20.666666666666664%, rgb(124,124,124) 21%, rgb(17,17,17) 25%, rgb(17,17,17) 33.33333333333333%, rgb(124,124,124) 37.33333333333333%, rgb(124,124,124) 37.666666666666664%, rgb(17,17,17) 41.666666666666664%, rgb(17,17,17) 50%, rgb(124,124,124) 54%, rgb(124,124,124) 54.33333333333333%, rgb(17,17,17) 58.33333333333333%, rgb(17,17,17) 66.66666666666666%, transparent 66.66666666666666%, transparent ),radial-gradient( circle farthest-corner at 0% 100%, rgb(17,17,17) 12.5%, rgb(124,124,124) 15.5%, rgb(124,124,124) 15.75%, rgb(17,17,17) 18.75%, rgb(17,17,17) 25%, rgb(124,124,124) 28%, rgb(124,124,124) 28.25%, rgb(17,17,17) 31.25%, rgb(17,17,17) 37.5%, rgb(124,124,124) 40.5%, rgb(124,124,124) 40.75%, rgb(17,17,17) 43.75%, rgb(17,17,17) 50%, transparent 50%, transparent ),radial-gradient( circle farthest-corner at 100% 100%, rgb(17,17,17) 12.5%, rgb(124,124,124) 15.5%, rgb(124,124,124) 15.75%, rgb(17,17,17) 18.75%, rgb(17,17,17) 25%, rgb(124,124,124) 28%, rgb(124,124,124) 28.25%, rgb(17,17,17) 31.25%, rgb(17,17,17) 37.5%, rgb(124,124,124) 40.5%, rgb(124,124,124) 40.75%, rgb(17,17,17) 43.75%, rgb(17,17,17) 50%, transparent 50%, transparent ),radial-gradient(circle farthest-corner at 50% 50%, rgb(17,17,17) 25%, rgb(124,124,124) 31%, rgb(124,124,124) 31.5%, rgb(17,17,17) 37.5%, rgb(17,17,17) 50%, rgb(124,124,124) 56%, rgb(124,124,124) 56.5%, rgb(17,17,17) 62.5%, rgb(17,17,17) 75%, rgb(124,124,124) 81%, rgb(124,124,124) 81.5%, rgb(17,17,17) 87.5%, rgb(17,17,17) 100%, transparent 100%, transparent );
@@ -239,7 +239,7 @@ describe('changes UI by prop values', () => {
         background-size: 3.031088913245535rem 1.75rem;
       }
 
-      .Main__Ryoanji-sc-55dih-1 .c4 {
+      .Main__Ryoanji-sc-1ebpejr-1 .c4 {
         height: calc(100% - 8px);
         background-color: rgb(240,240,240);
         background-image: radial-gradient( circle closest-side,rgba(255,255,255,0) 91%,rgb(255,255,255) 99%,rgba(255,255,255,0) ),radial-gradient( circle closest-side,rgb(240,240,240) 91%,rgb(255,255,255) 99%,rgb(240,240,240) );
@@ -255,40 +255,40 @@ describe('changes UI by prop values', () => {
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Kohoan-sc-55dih-2 .c3 {
+        .Main__Kohoan-sc-1ebpejr-2 .c3 {
           max-width: 47.5584rem;
         }
       }
 
       @media only screen and (min-width:30.7948rem) {
-        .Main__Kohoan-sc-55dih-2 .c3 {
+        .Main__Kohoan-sc-1ebpejr-2 .c3 {
           padding-left: 1.7708rem;
           padding-right: 1.7708rem;
         }
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Kohoan-sc-55dih-2 .c3 {
+        .Main__Kohoan-sc-1ebpejr-2 .c3 {
           padding-left: 2.4609rem;
           padding-right: 2.4609rem;
         }
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Ryoanji-sc-55dih-1 .c3 {
+        .Main__Ryoanji-sc-1ebpejr-1 .c3 {
           max-width: 48.6522rem;
         }
       }
 
       @media only screen and (min-width:31.6802rem) {
-        .Main__Ryoanji-sc-55dih-1 .c3 {
+        .Main__Ryoanji-sc-1ebpejr-1 .c3 {
           padding-left: 2.2135rem;
           padding-right: 2.2135rem;
         }
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Ryoanji-sc-55dih-1 .c3 {
+        .Main__Ryoanji-sc-1ebpejr-1 .c3 {
           padding-left: 3.0078rem;
           padding-right: 3.0078rem;
         }
@@ -322,13 +322,13 @@ describe('changes UI by prop values', () => {
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Kohoan-sc-55dih-2 .c4 {
+        .Main__Kohoan-sc-1ebpejr-2 .c4 {
           height: calc(100% - 10px);
         }
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Ryoanji-sc-55dih-1 .c4 {
+        .Main__Ryoanji-sc-1ebpejr-1 .c4 {
           height: calc(100% - 12px);
         }
       }

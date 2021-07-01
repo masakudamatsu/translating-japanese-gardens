@@ -18,14 +18,14 @@ test('renders UI correctly', () => {
       text-align: center;
     }
 
-    .Main__Kohoan-sc-55dih-2 .c0 {
+    .Main__Kohoan-sc-1ebpejr-2 .c0 {
       color: rgb(255,255,255);
       padding-bottom: 1.97rem;
       padding-top: 0.9896rem;
     }
 
     @media only screen and (min-width:728px) {
-      .Main__Kohoan-sc-55dih-2 .c0 {
+      .Main__Kohoan-sc-1ebpejr-2 .c0 {
         padding-bottom: 2.6353rem;
         padding-top: 1.3672rem;
       }

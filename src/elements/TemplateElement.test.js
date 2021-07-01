@@ -19,7 +19,7 @@ test('renders UI correctly', () => {
   expect(container).toMatchInlineSnapshot(`
     <div>
       <div
-        class="TemplateElement-uvuhvl-0"
+        class="TemplateElement-a39415-0"
       />
     </div>
   `);

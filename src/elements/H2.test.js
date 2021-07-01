@@ -8,7 +8,7 @@ const mockProps = {};
 test('renders UI correctly', () => {
   const {container} = render(<H2 {...mockProps} />);
   expect(container).toMatchInlineSnapshot(`
-    .Main__Kohoan-sc-55dih-2 .c1 {
+    .Main__Kohoan-sc-1ebpejr-2 .c1 {
       color: rgb(255,255,255);
       font-family: 'Playfair Display',serif;
       font-size: 1.7193rem;
@@ -25,7 +25,7 @@ test('renders UI correctly', () => {
       max-width: 34.5153rem;
     }
 
-    .Main__Ryoanji-sc-55dih-1 .c1 {
+    .Main__Ryoanji-sc-1ebpejr-1 .c1 {
       color: rgb(255,255,255);
       font-family: 'Cormorant','Times New Roman',serif;
       font-size: 2.2025rem;
@@ -42,14 +42,14 @@ test('renders UI correctly', () => {
       max-width: 34.5153rem;
     }
 
-    .Main__Kohoan-sc-55dih-2 .c0 {
+    .Main__Kohoan-sc-1ebpejr-2 .c0 {
       background-color: rgb(33,79,89);
       background-image: linear-gradient( 35deg, rgba(255,255,255,0) 0, rgba(255,255,255,0.42) 55%, rgba(255,255,255,0.42) 65%, rgba(255,255,255,0));
       padding-left: 1.0625rem;
       padding-right: 1.0625rem;
     }
 
-    .Main__Ryoanji-sc-55dih-1 .c0 {
+    .Main__Ryoanji-sc-1ebpejr-1 .c0 {
       background-color: rgb(59,105,114);
       background-image: linear-gradient( 35deg, rgba(255,255,255,0) 0, rgba(255,255,255,0.42) 55%, rgba(255,255,255,0.42) 65%, rgba(255,255,255,0));
       padding-left: 1.3281rem;
@@ -57,66 +57,66 @@ test('renders UI correctly', () => {
     }
 
     @media only screen and (min-width:728px) {
-      .Main__Kohoan-sc-55dih-2 .c1 {
+      .Main__Kohoan-sc-1ebpejr-2 .c1 {
         font-size: 2.1238rem;
       }
     }
 
     @media only screen and (min-width:728px) {
-      .Main__Kohoan-sc-55dih-2 .c1 {
+      .Main__Kohoan-sc-1ebpejr-2 .c1 {
         padding-bottom: 1.0704rem;
         padding-top: 0.8516rem;
       }
     }
 
     @media only screen and (min-width:728px) {
-      .Main__Kohoan-sc-55dih-2 .c1 {
+      .Main__Kohoan-sc-1ebpejr-2 .c1 {
         max-width: 42.6366rem;
       }
     }
 
     @media only screen and (min-width:728px) {
-      .Main__Ryoanji-sc-55dih-1 .c1 {
+      .Main__Ryoanji-sc-1ebpejr-1 .c1 {
         font-size: 2.7208rem;
       }
     }
 
     @media only screen and (min-width:728px) {
-      .Main__Ryoanji-sc-55dih-1 .c1 {
+      .Main__Ryoanji-sc-1ebpejr-1 .c1 {
         padding-bottom: 1.1842rem;
         padding-top: 1.2155rem;
       }
     }
 
     @media only screen and (min-width:728px) {
-      .Main__Ryoanji-sc-55dih-1 .c1 {
+      .Main__Ryoanji-sc-1ebpejr-1 .c1 {
         max-width: 42.6366rem;
       }
     }
 
     @media only screen and (min-width:30.7948rem) {
-      .Main__Kohoan-sc-55dih-2 .c0 {
+      .Main__Kohoan-sc-1ebpejr-2 .c0 {
         padding-left: 1.7708rem;
         padding-right: 1.7708rem;
       }
     }
 
     @media only screen and (min-width:728px) {
-      .Main__Kohoan-sc-55dih-2 .c0 {
+      .Main__Kohoan-sc-1ebpejr-2 .c0 {
         padding-left: 2.4609rem;
         padding-right: 2.4609rem;
       }
     }
 
     @media only screen and (min-width:31.6802rem) {
-      .Main__Ryoanji-sc-55dih-1 .c0 {
+      .Main__Ryoanji-sc-1ebpejr-1 .c0 {
         padding-left: 2.2135rem;
         padding-right: 2.2135rem;
       }
     }
 
     @media only screen and (min-width:728px) {
-      .Main__Ryoanji-sc-55dih-1 .c0 {
+      .Main__Ryoanji-sc-1ebpejr-1 .c0 {
         padding-left: 3.0078rem;
         padding-right: 3.0078rem;
       }

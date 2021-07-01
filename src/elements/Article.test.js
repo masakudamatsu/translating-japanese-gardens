@@ -14,7 +14,7 @@ describe('Parent chnages UI by prop value', () => {
         max-width: 941px;
       }
 
-      .Main__Kohoan-sc-55dih-2 .c0 {
+      .Main__Kohoan-sc-1ebpejr-2 .c0 {
         background-image: linear-gradient(to bottom,rgb(87,87,87),rgb(17,17,17));
         color: rgb(255,255,255);
         font-family: 'Libre Baskerville','Verdana',serif;
@@ -59,7 +59,7 @@ describe('Parent chnages UI by prop value', () => {
         background: none;
       }
 
-      .Main__Ryoanji-sc-55dih-1 .c0 {
+      .Main__Ryoanji-sc-1ebpejr-1 .c0 {
         background-color: rgb(255,255,255);
         color: rgb(10,10,10);
         font-family: 'Cormorant Garamond','Times New Roman',serif;
@@ -68,8 +68,8 @@ describe('Parent chnages UI by prop value', () => {
         line-height: 1.393;
       }
 
-      .Main__Ryoanji-sc-55dih-1 .c0 a:link,
-      .Main__Ryoanji-sc-55dih-1 .c0 a:visited {
+      .Main__Ryoanji-sc-1ebpejr-1 .c0 a:link,
+      .Main__Ryoanji-sc-1ebpejr-1 .c0 a:visited {
         background: rgba(59,105,114,0.2);
         background: linear-gradient( to bottom,currentColor 100%,currentColor );
         background-position: 0 1.3125rem;
@@ -82,30 +82,30 @@ describe('Parent chnages UI by prop value', () => {
         text-shadow: 0.03em 0 rgb(255,255,255),-0.03em 0 rgb(255,255,255),0 0.03em rgb(255,255,255),0 -0.03em rgb(255,255,255);
       }
 
-      .Main__Ryoanji-sc-55dih-1 .c0 a:focus,
-      .Main__Ryoanji-sc-55dih-1 .c0 a:hover {
+      .Main__Ryoanji-sc-1ebpejr-1 .c0 a:focus,
+      .Main__Ryoanji-sc-1ebpejr-1 .c0 a:hover {
         background: rgba(59,105,114,0.2);
         outline: none;
         text-shadow: none;
       }
 
-      .Main__Ryoanji-sc-55dih-1 .c0 a:active {
+      .Main__Ryoanji-sc-1ebpejr-1 .c0 a:active {
         background: none;
       }
 
-      .Main__Ryoanji-sc-55dih-1 .c0 a:visited:focus,
-      .Main__Ryoanji-sc-55dih-1 .c0 a:visited:hover {
+      .Main__Ryoanji-sc-1ebpejr-1 .c0 a:visited:focus,
+      .Main__Ryoanji-sc-1ebpejr-1 .c0 a:visited:hover {
         background: rgba(59,105,114,0.2);
         outline: none;
         text-shadow: none;
       }
 
-      .Main__Ryoanji-sc-55dih-1 .c0 a:visited:active {
+      .Main__Ryoanji-sc-1ebpejr-1 .c0 a:visited:active {
         background: none;
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Kohoan-sc-55dih-2 .c0 {
+        .Main__Kohoan-sc-1ebpejr-2 .c0 {
           font-size: 1.2266rem;
           line-height: 1.73875;
         }
@@ -164,29 +164,29 @@ describe('Parent chnages UI by prop value', () => {
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Ryoanji-sc-55dih-1 .c0 {
+        .Main__Ryoanji-sc-1ebpejr-1 .c0 {
           font-size: 1.6489rem;
           line-height: 1.4925;
         }
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Ryoanji-sc-55dih-1 .c0 {
+        .Main__Ryoanji-sc-1ebpejr-1 .c0 {
           margin-left: 3.0078rem;
           margin-right: 3.0078rem;
         }
       }
 
       @media only screen and (min-width:64.8281rem) {
-        .Main__Ryoanji-sc-55dih-1 .c0 {
+        .Main__Ryoanji-sc-1ebpejr-1 .c0 {
           margin-left: auto;
           margin-right: auto;
         }
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Ryoanji-sc-55dih-1 .c0 a:link,
-        .Main__Ryoanji-sc-55dih-1 .c0 a:visited {
+        .Main__Ryoanji-sc-1ebpejr-1 .c0 a:link,
+        .Main__Ryoanji-sc-1ebpejr-1 .c0 a:visited {
           background: rgba(59,105,114,0.2);
           background: linear-gradient( to bottom,currentColor 100%,currentColor );
           background-position: 0 1.625rem;
@@ -199,25 +199,25 @@ describe('Parent chnages UI by prop value', () => {
           text-shadow: 0.03em 0 rgb(255,255,255),-0.03em 0 rgb(255,255,255),0 0.03em rgb(255,255,255),0 -0.03em rgb(255,255,255);
         }
 
-        .Main__Ryoanji-sc-55dih-1 .c0 a:focus,
-        .Main__Ryoanji-sc-55dih-1 .c0 a:hover {
+        .Main__Ryoanji-sc-1ebpejr-1 .c0 a:focus,
+        .Main__Ryoanji-sc-1ebpejr-1 .c0 a:hover {
           background: rgba(59,105,114,0.2);
           outline: none;
           text-shadow: none;
         }
 
-        .Main__Ryoanji-sc-55dih-1 .c0 a:active {
+        .Main__Ryoanji-sc-1ebpejr-1 .c0 a:active {
           background: none;
         }
 
-        .Main__Ryoanji-sc-55dih-1 .c0 a:visited:focus,
-        .Main__Ryoanji-sc-55dih-1 .c0 a:visited:hover {
+        .Main__Ryoanji-sc-1ebpejr-1 .c0 a:visited:focus,
+        .Main__Ryoanji-sc-1ebpejr-1 .c0 a:visited:hover {
           background: rgba(59,105,114,0.2);
           outline: none;
           text-shadow: none;
         }
 
-        .Main__Ryoanji-sc-55dih-1 .c0 a:visited:active {
+        .Main__Ryoanji-sc-1ebpejr-1 .c0 a:visited:active {
           background: none;
         }
       }
@@ -239,12 +239,12 @@ describe('renders UI correctly', () => {
         position: relative;
       }
 
-      .Main__Kohoan-sc-55dih-2 .c0 {
+      .Main__Kohoan-sc-1ebpejr-2 .c0 {
         padding-bottom: 2.2951rem;
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Kohoan-sc-55dih-2 .c0 {
+        .Main__Kohoan-sc-1ebpejr-2 .c0 {
           padding-bottom: 3.1328rem;
         }
       }

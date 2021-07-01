@@ -38,22 +38,22 @@ describe('renders UI correctly', () => {
         width: 100%;
       }
 
-      .Main__Kohoan-sc-55dih-2 .c0 {
+      .Main__Kohoan-sc-1ebpejr-2 .c0 {
         height: 0.4804rem;
       }
 
-      .Main__Ryoanji-sc-55dih-1 .c0 {
+      .Main__Ryoanji-sc-1ebpejr-1 .c0 {
         height: 0.5457rem;
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Kohoan-sc-55dih-2 .c0 {
+        .Main__Kohoan-sc-1ebpejr-2 .c0 {
           height: 0.6509rem;
         }
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Ryoanji-sc-55dih-1 .c0 {
+        .Main__Ryoanji-sc-1ebpejr-1 .c0 {
           height: 0.761rem;
         }
       }
@@ -72,22 +72,22 @@ describe('renders UI correctly', () => {
         width: 100%;
       }
 
-      .Main__Kohoan-sc-55dih-2 .c0 {
+      .Main__Kohoan-sc-1ebpejr-2 .c0 {
         height: 0.0429rem;
       }
 
-      .Main__Ryoanji-sc-55dih-1 .c0 {
+      .Main__Ryoanji-sc-1ebpejr-1 .c0 {
         height: 0.0457rem;
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Kohoan-sc-55dih-2 .c0 {
+        .Main__Kohoan-sc-1ebpejr-2 .c0 {
           height: 0.0259rem;
         }
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Ryoanji-sc-55dih-1 .c0 {
+        .Main__Ryoanji-sc-1ebpejr-1 .c0 {
           height: 0.011rem;
         }
       }
@@ -106,12 +106,12 @@ describe('renders UI correctly', () => {
         width: 100%;
       }
 
-      .Main__Kohoan-sc-55dih-2 .c0 {
+      .Main__Kohoan-sc-1ebpejr-2 .c0 {
         height: 1.7708rem;
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Kohoan-sc-55dih-2 .c0 {
+        .Main__Kohoan-sc-1ebpejr-2 .c0 {
           height: 2.4609rem;
         }
       }
@@ -130,22 +130,22 @@ describe('renders UI correctly', () => {
         width: 100%;
       }
 
-      .Main__Kohoan-sc-55dih-2 .c0 {
+      .Main__Kohoan-sc-1ebpejr-2 .c0 {
         height: 1.4271rem;
       }
 
-      .Main__Ryoanji-sc-55dih-1 .c0 {
+      .Main__Ryoanji-sc-1ebpejr-1 .c0 {
         height: 1.7448rem;
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Kohoan-sc-55dih-2 .c0 {
+        .Main__Kohoan-sc-1ebpejr-2 .c0 {
           height: 1.9297rem;
         }
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Ryoanji-sc-55dih-1 .c0 {
+        .Main__Ryoanji-sc-1ebpejr-1 .c0 {
           height: 2.3516rem;
         }
       }
@@ -164,12 +164,12 @@ describe('renders UI correctly', () => {
         width: 100%;
       }
 
-      .Main__Ryoanji-sc-55dih-1 .c0 {
+      .Main__Ryoanji-sc-1ebpejr-1 .c0 {
         height: 0.7644rem;
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Ryoanji-sc-55dih-1 .c0 {
+        .Main__Ryoanji-sc-1ebpejr-1 .c0 {
           height: 1.1047rem;
         }
       }
@@ -190,12 +190,12 @@ describe('renders UI correctly', () => {
         width: 100%;
       }
 
-      .Main__Kohoan-sc-55dih-2 .c0 {
+      .Main__Kohoan-sc-1ebpejr-2 .c0 {
         height: 1.1146rem;
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Kohoan-sc-55dih-2 .c0 {
+        .Main__Kohoan-sc-1ebpejr-2 .c0 {
           height: 1.4922rem;
         }
       }
@@ -214,12 +214,12 @@ describe('renders UI correctly', () => {
         width: 100%;
       }
 
-      .Main__Kohoan-sc-55dih-2 .c0 {
+      .Main__Kohoan-sc-1ebpejr-2 .c0 {
         height: 0.9075rem;
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Kohoan-sc-55dih-2 .c0 {
+        .Main__Kohoan-sc-1ebpejr-2 .c0 {
           height: 1.2915rem;
         }
       }
@@ -238,22 +238,22 @@ describe('renders UI correctly', () => {
         width: 100%;
       }
 
-      .Main__Kohoan-sc-55dih-2 .c0 {
+      .Main__Kohoan-sc-1ebpejr-2 .c0 {
         height: 0.625rem;
       }
 
-      .Main__Ryoanji-sc-55dih-1 .c0 {
+      .Main__Ryoanji-sc-1ebpejr-1 .c0 {
         height: 0.8281rem;
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Kohoan-sc-55dih-2 .c0 {
+        .Main__Kohoan-sc-1ebpejr-2 .c0 {
           height: 0.8516rem;
         }
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Ryoanji-sc-55dih-1 .c0 {
+        .Main__Ryoanji-sc-1ebpejr-1 .c0 {
           height: 1.0547rem;
         }
       }
@@ -274,7 +274,7 @@ describe('renders UI correctly', () => {
 
       <div>
         <div
-          class="Spacer__TextParagraphToBox-sc-1ug26uc-8 c0"
+          class="Spacer__TextParagraphToBox-sc-1tkniyd-8 c0"
         />
       </div>
     `);
@@ -286,22 +286,22 @@ describe('renders UI correctly', () => {
         width: 100%;
       }
 
-      .Main__Kohoan-sc-55dih-2 .c0 {
+      .Main__Kohoan-sc-1ebpejr-2 .c0 {
         height: 0.9896rem;
       }
 
-      .Main__Ryoanji-sc-55dih-1 .c0 {
+      .Main__Ryoanji-sc-1ebpejr-1 .c0 {
         height: 1.2448rem;
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Kohoan-sc-55dih-2 .c0 {
+        .Main__Kohoan-sc-1ebpejr-2 .c0 {
           height: 1.3047rem;
         }
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Ryoanji-sc-55dih-1 .c0 {
+        .Main__Ryoanji-sc-1ebpejr-1 .c0 {
           height: 1.6016rem;
         }
       }

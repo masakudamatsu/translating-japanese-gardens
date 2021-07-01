@@ -9,22 +9,22 @@ describe('renders UI correctly:', () => {
   test('Parent', () => {
     const {container} = render(<Section {...mockProps} />);
     expect(container).toMatchInlineSnapshot(`
-      .Main__Kohoan-sc-55dih-2 .c0 {
+      .Main__Kohoan-sc-1ebpejr-2 .c0 {
         padding-bottom: 2.5139rem;
       }
 
-      .Main__Ryoanji-sc-55dih-1 .c0 {
+      .Main__Ryoanji-sc-1ebpejr-1 .c0 {
         padding-bottom: 3.1892rem;
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Kohoan-sc-55dih-2 .c0 {
+        .Main__Kohoan-sc-1ebpejr-2 .c0 {
           padding-bottom: 3.4766rem;
         }
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Ryoanji-sc-55dih-1 .c0 {
+        .Main__Ryoanji-sc-1ebpejr-1 .c0 {
           padding-bottom: 4.263rem;
         }
       }
