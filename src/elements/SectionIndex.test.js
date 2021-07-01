@@ -182,11 +182,11 @@ describe('renders UI correctly:', () => {
         z-index: 1;
       }
 
-      .SectionIndex-sc-4o4lyj-0:nth-of-type(odd) .c0::before {
+      .SectionIndex-gvdw9c-0:nth-of-type(odd) .c0::before {
         background-image: linear-gradient( to top right, rgba(255,255,255,0) 75%, rgba(255,255,255,0.8) );
       }
 
-      .SectionIndex-sc-4o4lyj-0:nth-of-type(even) .c0::before {
+      .SectionIndex-gvdw9c-0:nth-of-type(even) .c0::before {
         background-image: linear-gradient( to top left, rgba(255,255,255,0) 75%, rgba(255,255,255,0.8) );
       }
 
@@ -229,11 +229,11 @@ describe('renders UI correctly:', () => {
         z-index: 2;
       }
 
-      .SectionIndex-sc-4o4lyj-0:nth-of-type(odd) .c0 {
+      .SectionIndex-gvdw9c-0:nth-of-type(odd) .c0 {
         right: 0;
       }
 
-      .SectionIndex-sc-4o4lyj-0:nth-of-type(even) .c0 {
+      .SectionIndex-gvdw9c-0:nth-of-type(even) .c0 {
         left: 0;
       }
 
@@ -275,11 +275,11 @@ describe('renders UI correctly:', () => {
         z-index: 2;
       }
 
-      .SectionIndex-sc-4o4lyj-0:nth-of-type(odd) .c0 {
+      .SectionIndex-gvdw9c-0:nth-of-type(odd) .c0 {
         text-align: left;
       }
 
-      .SectionIndex-sc-4o4lyj-0:nth-of-type(even) .c0 {
+      .SectionIndex-gvdw9c-0:nth-of-type(even) .c0 {
         text-align: right;
       }
 
@@ -312,11 +312,11 @@ describe('renders UI correctly:', () => {
         z-index: 2;
       }
 
-      .SectionIndex-sc-4o4lyj-0:nth-of-type(odd) .c0 {
+      .SectionIndex-gvdw9c-0:nth-of-type(odd) .c0 {
         text-align: left;
       }
 
-      .SectionIndex-sc-4o4lyj-0:nth-of-type(even) .c0 {
+      .SectionIndex-gvdw9c-0:nth-of-type(even) .c0 {
         text-align: right;
       }
 
@@ -340,11 +340,11 @@ describe('renders UI correctly:', () => {
         padding-top: 0.5859rem;
       }
 
-      .SectionIndex-sc-4o4lyj-0:nth-of-type(odd) .c0 {
+      .SectionIndex-gvdw9c-0:nth-of-type(odd) .c0 {
         text-align: left;
       }
 
-      .SectionIndex-sc-4o4lyj-0:nth-of-type(even) .c0 {
+      .SectionIndex-gvdw9c-0:nth-of-type(even) .c0 {
         text-align: right;
       }
 

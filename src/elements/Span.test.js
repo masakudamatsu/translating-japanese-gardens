@@ -9,7 +9,7 @@ describe('Props work as intended', () => {
   test('LeadIn', () => {
     const {container} = render(<Span.LeadIn />);
     expect(container).toMatchInlineSnapshot(`
-      .Main__Ryoanji-sc-55dih-1 .c0 {
+      .Main__Ryoanji-sc-1ebpejr-1 .c0 {
         font-family: 'Cormorant SC','Times New Roman',serif;
         -webkit-letter-spacing: 0.01em;
         -moz-letter-spacing: 0.01em;
@@ -18,7 +18,7 @@ describe('Props work as intended', () => {
         word-spacing: -0.05em;
       }
 
-      .Main__Kohoan-sc-55dih-2 .c0 {
+      .Main__Kohoan-sc-1ebpejr-2 .c0 {
         font-family: 'Playfair Display SC',serif;
         -webkit-letter-spacing: 0.01em;
         -moz-letter-spacing: 0.01em;
@@ -55,11 +55,11 @@ describe('Props work as intended', () => {
         white-space: nowrap;
       }
 
-      .Main__Kohoan-sc-55dih-2 .c0 {
+      .Main__Kohoan-sc-1ebpejr-2 .c0 {
         color: rgb(200,200,200);
       }
 
-      .Main__Ryoanji-sc-55dih-1 .c0 {
+      .Main__Ryoanji-sc-1ebpejr-1 .c0 {
         color: rgb(100,100,100);
       }
 

@@ -8,14 +8,14 @@ const mockProps = {};
 test('renders UI correctly', () => {
   const {container} = render(<SpanKanji {...mockProps} />);
   expect(container).toMatchInlineSnapshot(`
-    .Main__Kohoan-sc-55dih-2 .c0 {
+    .Main__Kohoan-sc-1ebpejr-2 .c0 {
       font-family: 'Shippori Mincho',serif;
       font-size: 1em;
       font-weight: 500;
       line-height: normal;
     }
 
-    .Main__Ryoanji-sc-55dih-1 .c0 {
+    .Main__Ryoanji-sc-1ebpejr-1 .c0 {
       font-family: 'Shippori Mincho',serif;
       font-size: 0.85em;
       font-weight: 500;

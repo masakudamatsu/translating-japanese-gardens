@@ -13,14 +13,14 @@ describe('renders UI correctly:', () => {
         text-align: left;
       }
 
-      .Main__Kohoan-sc-55dih-2 .c0 {
+      .Main__Kohoan-sc-1ebpejr-2 .c0 {
         margin: 0 auto;
         max-width: 38.057rem;
         padding-left: 1.0625rem;
         padding-right: 1.0625rem;
       }
 
-      .Main__Ryoanji-sc-55dih-1 .c0 {
+      .Main__Ryoanji-sc-1ebpejr-1 .c0 {
         margin: 0 auto;
         max-width: 38.9424rem;
         padding-left: 1.3281rem;
@@ -28,40 +28,40 @@ describe('renders UI correctly:', () => {
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Kohoan-sc-55dih-2 .c0 {
+        .Main__Kohoan-sc-1ebpejr-2 .c0 {
           max-width: 47.5584rem;
         }
       }
 
       @media only screen and (min-width:30.7948rem) {
-        .Main__Kohoan-sc-55dih-2 .c0 {
+        .Main__Kohoan-sc-1ebpejr-2 .c0 {
           padding-left: 1.7708rem;
           padding-right: 1.7708rem;
         }
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Kohoan-sc-55dih-2 .c0 {
+        .Main__Kohoan-sc-1ebpejr-2 .c0 {
           padding-left: 2.4609rem;
           padding-right: 2.4609rem;
         }
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Ryoanji-sc-55dih-1 .c0 {
+        .Main__Ryoanji-sc-1ebpejr-1 .c0 {
           max-width: 48.6522rem;
         }
       }
 
       @media only screen and (min-width:31.6802rem) {
-        .Main__Ryoanji-sc-55dih-1 .c0 {
+        .Main__Ryoanji-sc-1ebpejr-1 .c0 {
           padding-left: 2.2135rem;
           padding-right: 2.2135rem;
         }
       }
 
       @media only screen and (min-width:728px) {
-        .Main__Ryoanji-sc-55dih-1 .c0 {
+        .Main__Ryoanji-sc-1ebpejr-1 .c0 {
           padding-left: 3.0078rem;
           padding-right: 3.0078rem;
         }
