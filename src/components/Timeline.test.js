@@ -7,6 +7,13 @@ import Timeline from './Timeline';
 
 const mockProps = {};
 
+test('changes the priority prop value with the indexPage prop', () => {
+  render(<Timeline {...mockProps} indexPage />);
+  expect(
+    screen.getByAltText('A view of Ryoanji Rock Garden'),
+  ).not.toHaveAttribute('loading', 'lazy');
+});
+
 test('is accessible', async () => {
   await act(async () => {
     const {container} = render(<Timeline {...mockProps} />);

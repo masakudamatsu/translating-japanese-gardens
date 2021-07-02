@@ -5,7 +5,7 @@ import Garden from './Garden';
 import NavTimeline from 'src/elements/NavTimeline';
 import Spacer from 'src/elements/Spacer';
 
-const Timeline = ({currentPage}) => {
+const Timeline = ({currentPage, indexPage}) => {
   return (
     <NavTimeline>
       <Garden
@@ -21,6 +21,7 @@ const Timeline = ({currentPage}) => {
           width: 1882,
           height: 1405,
           alt: 'A view of Ryoanji Rock Garden',
+          priority: indexPage,
         }}
         year="c.1499"
       />
@@ -38,6 +39,7 @@ const Timeline = ({currentPage}) => {
           width: 1200,
           height: 800,
           alt: 'A view of Kohoan Temple Garden',
+          priority: false,
         }}
         year="1643"
       />
@@ -47,6 +49,7 @@ const Timeline = ({currentPage}) => {
 
 Timeline.propTypes = {
   currentPage: PropTypes.string,
+  indexPage: PropTypes.bool,
 };
 
 export default Timeline;

@@ -16,6 +16,7 @@ const Garden = ({currentPage, gardenName, description, image, year}) => {
             width={image.width}
             height={image.height}
             alt={image.alt}
+            priority={image.priority}
           />
         </SectionIndex.Figure>
         <SectionIndex.Kanji>{gardenName.kanji}</SectionIndex.Kanji>

@@ -16,6 +16,7 @@ const mockProps = {
     width: 1882,
     height: 1405,
     alt: 'A view of Ryoanji Rock Garden',
+    priority: true,
   },
   description: 'Reminding us of the principle of Zen',
   year: 'c.1499',

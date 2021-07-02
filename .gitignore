@@ -33,3 +33,5 @@ resources/
 #template*.js
 
 sketch/
+
+out/
