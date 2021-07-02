@@ -81,6 +81,7 @@ const ImageWithPlaceholder = ({
   );
   const imageStyled = (
     <ImageStyled
+      decoding="async"
       loaded={imageLoaded}
       loading={priority ? null : `lazy`}
       onError={() => setIsSrcValid(false)}
