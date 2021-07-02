@@ -8,6 +8,7 @@ const mockProps = {
   width: 100,
   height: 100,
   alt: 'alt-text',
+  priority: false,
 };
 
 describe('renders the UI correctly during the loading time', () => {
@@ -173,6 +174,16 @@ describe('After the image fails to be loaded', () => {
     await waitFor(() => {
       expect(screen.getByText(mockProps.alt)).toBeVisible();
     });
+  });
+});
+
+describe('disables lazy-loading with priority prop', () => {
+  test.only('with priority prop value', () => {
+    render(<ImageWithPlaceholder {...mockProps} priority />);
+    expect(screen.getByAltText(mockProps.alt)).not.toHaveAttribute(
+      'loading',
+      'lazy',
+    );
   });
 });
 

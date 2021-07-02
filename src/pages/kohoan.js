@@ -64,6 +64,7 @@ export default function Kohoan() {
                   width={1200}
                   height={800}
                   alt="A garden is picture-framed with a hanging paper screen from above, sliding paper screens on both sides, and the wooden veranda from below."
+                  priority
                 />
                 {/*
               <FigureWithMargin.FigCaption>

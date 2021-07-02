@@ -61,7 +61,15 @@ const ImageStyled = styled.img`
   transition: opacity 500ms linear;
 `; // https://github.com/styled-components/styled-components/issues/1198#issuecomment-425650423
 
-const ImageWithPlaceholder = ({src, alt, width, height, kohoan, ...props}) => {
+const ImageWithPlaceholder = ({
+  src,
+  alt,
+  width,
+  height,
+  kohoan,
+  priority,
+  ...props
+}) => {
   // https://codebrahma.com/how-to-smoothly-render-images-in-react-app/
   const [imageLoaded, setImageLoaded] = useState(false);
   const [isSrcValid, setIsSrcValid] = useState(!!src);
@@ -74,6 +82,7 @@ const ImageWithPlaceholder = ({src, alt, width, height, kohoan, ...props}) => {
   const imageStyled = (
     <ImageStyled
       loaded={imageLoaded}
+      loading={priority ? null : `lazy`}
       onError={() => setIsSrcValid(false)}
       onLoad={() => setImageLoaded(true)}
       src={src}
@@ -107,6 +116,7 @@ const ImageWithPlaceholder = ({src, alt, width, height, kohoan, ...props}) => {
 
 ImageWithPlaceholder.propTypes = {
   kohoan: PropTypes.bool,
+  priority: PropTypes.bool,
 };
 
 export default ImageWithPlaceholder;
