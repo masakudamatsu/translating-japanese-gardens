@@ -121,8 +121,8 @@ export const spaceToTrim = {
   index: {
     figure: {
       bottom: {
-        mobile: 4,
-      }, // See issue #29
+        mobile: 0, // 4 with Next.js Image component. See issue #29 of kyoto-gardens repo
+      },
     },
     h2: {
       top: {
@@ -179,9 +179,9 @@ export const spaceToTrim = {
     },
     figure: {
       bottom: {
-        mobile: 7,
-        desktop: 10,
-      }, // See issue #29
+        mobile: 0, // 7 with Next.js Image component
+        desktop: 0, // 10 with Next.js Image component
+      }, // See issue #29 of kyoto-gardens repo
     },
     h1: {
       bottom: {
@@ -237,9 +237,9 @@ export const spaceToTrim = {
     },
     figure: {
       bottom: {
-        mobile: 8,
-        desktop: 12,
-      }, // See issue #29
+        mobile: 0, // 8 with Next.js Image component
+        desktop: 0, // 12 with Next.js Image component
+      }, // See issue #29 of kyoto-gardens repo
     },
     floorplan: {
       top: 6,

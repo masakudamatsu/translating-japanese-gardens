@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
 import {useState} from 'react';
-import Image from 'next/image';
 
 import {seigaihaPattern, shippoPattern} from 'src/utils/patterns';
 
@@ -54,7 +53,10 @@ const Placeholder = styled(P)`
   }
 `;
 
-const ImageStyled = styled(({loaded, ...props}) => <Image {...props} />)`
+const ImageStyled = styled.img`
+  display: block;
+  height: auto;
+  max-width: 100%;
   opacity: ${({loaded}) => (loaded ? '1' : '0')};
   transition: opacity 500ms linear;
 `; // https://github.com/styled-components/styled-components/issues/1198#issuecomment-425650423

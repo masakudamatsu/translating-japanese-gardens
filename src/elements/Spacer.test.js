@@ -73,22 +73,22 @@ describe('renders UI correctly', () => {
       }
 
       .Main__Kohoan-sc-1ebpejr-2 .c0 {
-        height: 0.0429rem;
+        height: 0.4804rem;
       }
 
       .Main__Ryoanji-sc-1ebpejr-1 .c0 {
-        height: 0.0457rem;
+        height: 0.5457rem;
       }
 
       @media only screen and (min-width:728px) {
         .Main__Kohoan-sc-1ebpejr-2 .c0 {
-          height: 0.0259rem;
+          height: 0.6509rem;
         }
       }
 
       @media only screen and (min-width:728px) {
         .Main__Ryoanji-sc-1ebpejr-1 .c0 {
-          height: 0.011rem;
+          height: 0.761rem;
         }
       }
 
