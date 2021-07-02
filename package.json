@@ -10,6 +10,7 @@
     "postci:tests": "npm run report:combined",
     "commit": "git-cz",
     "cy:open": "cypress open --env coverage=false",
+    "precy:run": "rm -r .nyc_output || true",
     "cy:run": "cypress run",
     "dev": "next dev",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|json)\"",
