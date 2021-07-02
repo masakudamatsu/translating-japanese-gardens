@@ -1,6 +1,6 @@
 {
   "report-dir": "coverage-cypress",
-  "branches": 75,
+  "branches": 78,
   "functions": 97,
   "lines": 90,
   "statements": 90
