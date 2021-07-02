@@ -1,7 +1,21 @@
 name: 'Testing the entire website'
 on: push
 jobs:
-  test-the-entire-website:
+  visual-regression-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout the repo'
+        uses: actions/checkout@v2
+      - name: 'Run Percy with Cypress'
+        uses: cypress-io/github-action@v2
+        with:
+          build: npm run build
+          start: npm start
+          wait-on: 'http://localhost:3000'
+          command: npm run snapshot
+        env:
+          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
+  eslint-jest-cypress:
     runs-on: ubuntu-latest
     steps:
       - name: 'Checkout the repo'
@@ -17,5 +31,3 @@ jobs:
         run: npm run build
       - name: 'Start the server and run tests'
         run: npm run ci
-        env:
-          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
