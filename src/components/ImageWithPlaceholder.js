@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
-import {useState} from 'react';
+import {useEffect, useRef, useState} from 'react';
 
 import {seigaihaPattern, shippoPattern} from 'src/utils/patterns';
 
@@ -76,6 +76,14 @@ const ImageWithPlaceholder = ({
   const imageLoaded = status === 'loaded';
   const error = status === 'error';
 
+  // Deal with cached images: see https://stackoverflow.com/a/59809184/11847654
+  const img = useRef();
+  useEffect(() => {
+    if (img.current.complete) {
+      setStatus('loaded');
+    }
+  }, []);
+
   const imageStyled = (
     <ImageStyled
       decoding="async"
@@ -83,6 +91,7 @@ const ImageWithPlaceholder = ({
       loading={priority ? null : `lazy`}
       onError={() => setStatus('error')}
       onLoad={() => setStatus('loaded')}
+      ref={img}
       src={src}
       alt={alt}
       width={width}
