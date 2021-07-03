@@ -160,8 +160,8 @@ describe('renders UI correctly', () => {
         padding-right: 1.0625rem;
         position: relative;
         width: 100%;
-        top: -1.5938rem;
-        margin-bottom: -1.5938rem;
+        top: -1.1563rem;
+        margin-bottom: -1.1563rem;
       }
 
       @media only screen and (min-width:31.6802rem) {
@@ -207,15 +207,15 @@ describe('renders UI correctly', () => {
 
       @media only screen and (min-width:38.057rem) {
         .Main__Kohoan-sc-1ebpejr-2 .c0 {
-          top: -2.4063rem;
-          margin-bottom: -2.4063rem;
+          top: -1.9688rem;
+          margin-bottom: -1.9688rem;
         }
       }
 
       @media only screen and (min-width:728px) {
         .Main__Kohoan-sc-1ebpejr-2 .c0 {
-          top: -2.5938rem;
-          margin-bottom: -2.5938rem;
+          top: -1.9688rem;
+          margin-bottom: -1.9688rem;
         }
       }
 

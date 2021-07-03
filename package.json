@@ -4,9 +4,9 @@
   "description": "Source code for Translating Japanese Gardens, a website that hosts a collection of essays on historical landscape design in Japan",
   "main": "pages/index.js",
   "scripts": {
-    "build": "next build",
+    "build": "next build && next export",
     "ci": "start-server-and-test start http://localhost:3000 ci:tests",
-    "ci:tests": "npm-run-all --parallel lint test:coverage:unit test:coverage:e2e snapshot",
+    "ci:tests": "npm-run-all --parallel lint test:coverage:unit test:coverage:e2e",
     "postci:tests": "npm run report:combined",
     "commit": "git-cz",
     "cy:open": "cypress open --env coverage=false",

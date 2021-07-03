@@ -41,7 +41,7 @@ function HomePage() {
       <Main.Index>
         <VisuallyHidden as="h1">Translating Japanese Gardens</VisuallyHidden>
         <SiteTitle ariaHidden />
-        <Timeline />
+        <Timeline indexPage />
       </Main.Index>
       <Footer>
         <Footer.BottomBackground>

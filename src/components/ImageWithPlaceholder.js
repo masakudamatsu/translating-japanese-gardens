@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
 import {useState} from 'react';
-import Image from 'next/image';
 
 import {seigaihaPattern, shippoPattern} from 'src/utils/patterns';
 
@@ -54,12 +53,23 @@ const Placeholder = styled(P)`
   }
 `;
 
-const ImageStyled = styled(({loaded, ...props}) => <Image {...props} />)`
+const ImageStyled = styled.img`
+  display: block;
+  height: auto;
+  max-width: 100%;
   opacity: ${({loaded}) => (loaded ? '1' : '0')};
   transition: opacity 500ms linear;
 `; // https://github.com/styled-components/styled-components/issues/1198#issuecomment-425650423
 
-const ImageWithPlaceholder = ({src, alt, width, height, kohoan, ...props}) => {
+const ImageWithPlaceholder = ({
+  src,
+  alt,
+  width,
+  height,
+  kohoan,
+  priority,
+  ...props
+}) => {
   // https://codebrahma.com/how-to-smoothly-render-images-in-react-app/
   const [imageLoaded, setImageLoaded] = useState(false);
   const [isSrcValid, setIsSrcValid] = useState(!!src);
@@ -71,7 +81,9 @@ const ImageWithPlaceholder = ({src, alt, width, height, kohoan, ...props}) => {
   );
   const imageStyled = (
     <ImageStyled
+      decoding="async"
       loaded={imageLoaded}
+      loading={priority ? null : `lazy`}
       onError={() => setIsSrcValid(false)}
       onLoad={() => setImageLoaded(true)}
       src={src}
@@ -105,6 +117,7 @@ const ImageWithPlaceholder = ({src, alt, width, height, kohoan, ...props}) => {
 
 ImageWithPlaceholder.propTypes = {
   kohoan: PropTypes.bool,
+  priority: PropTypes.bool,
 };
 
 export default ImageWithPlaceholder;

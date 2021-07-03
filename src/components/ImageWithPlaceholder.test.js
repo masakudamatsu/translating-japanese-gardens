@@ -8,6 +8,7 @@ const mockProps = {
   width: 100,
   height: 100,
   alt: 'alt-text',
+  priority: false,
 };
 
 describe('renders the UI correctly during the loading time', () => {
@@ -70,7 +71,7 @@ describe('renders the UI correctly during the loading time', () => {
       }
 
       .Main__Kohoan-sc-1ebpejr-2 .c1 {
-        height: calc(100% - 7px);
+        height: calc(100% - 0px);
         background-color: rgb(17,17,17);
         background-image: radial-gradient( circle farthest-side at 50% 150%, rgb(17,17,17) 16.666666666666664%, rgb(124,124,124) 20.666666666666664%, rgb(124,124,124) 21%, rgb(17,17,17) 25%, rgb(17,17,17) 33.33333333333333%, rgb(124,124,124) 37.33333333333333%, rgb(124,124,124) 37.666666666666664%, rgb(17,17,17) 41.666666666666664%, rgb(17,17,17) 50%, rgb(124,124,124) 54%, rgb(124,124,124) 54.33333333333333%, rgb(17,17,17) 58.33333333333333%, rgb(17,17,17) 66.66666666666666%, transparent 66.66666666666666%, transparent ),radial-gradient( circle farthest-corner at 0% 100%, rgb(17,17,17) 12.5%, rgb(124,124,124) 15.5%, rgb(124,124,124) 15.75%, rgb(17,17,17) 18.75%, rgb(17,17,17) 25%, rgb(124,124,124) 28%, rgb(124,124,124) 28.25%, rgb(17,17,17) 31.25%, rgb(17,17,17) 37.5%, rgb(124,124,124) 40.5%, rgb(124,124,124) 40.75%, rgb(17,17,17) 43.75%, rgb(17,17,17) 50%, transparent 50%, transparent ),radial-gradient( circle farthest-corner at 100% 100%, rgb(17,17,17) 12.5%, rgb(124,124,124) 15.5%, rgb(124,124,124) 15.75%, rgb(17,17,17) 18.75%, rgb(17,17,17) 25%, rgb(124,124,124) 28%, rgb(124,124,124) 28.25%, rgb(17,17,17) 31.25%, rgb(17,17,17) 37.5%, rgb(124,124,124) 40.5%, rgb(124,124,124) 40.75%, rgb(17,17,17) 43.75%, rgb(17,17,17) 50%, transparent 50%, transparent ),radial-gradient(circle farthest-corner at 50% 50%, rgb(17,17,17) 25%, rgb(124,124,124) 31%, rgb(124,124,124) 31.5%, rgb(17,17,17) 37.5%, rgb(17,17,17) 50%, rgb(124,124,124) 56%, rgb(124,124,124) 56.5%, rgb(17,17,17) 62.5%, rgb(17,17,17) 75%, rgb(124,124,124) 81%, rgb(124,124,124) 81.5%, rgb(17,17,17) 87.5%, rgb(17,17,17) 100%, transparent 100%, transparent );
         background-repeat: repeat;
@@ -78,7 +79,7 @@ describe('renders the UI correctly during the loading time', () => {
       }
 
       .Main__Ryoanji-sc-1ebpejr-1 .c1 {
-        height: calc(100% - 8px);
+        height: calc(100% - 0px);
         background-color: rgb(240,240,240);
         background-image: radial-gradient( circle closest-side,rgba(255,255,255,0) 91%,rgb(255,255,255) 99%,rgba(255,255,255,0) ),radial-gradient( circle closest-side,rgb(240,240,240) 91%,rgb(255,255,255) 99%,rgb(240,240,240) );
         background-position: 0 0,1.75rem 1.75rem;
@@ -128,13 +129,13 @@ describe('renders the UI correctly during the loading time', () => {
 
       @media only screen and (min-width:728px) {
         .Main__Kohoan-sc-1ebpejr-2 .c1 {
-          height: calc(100% - 10px);
+          height: calc(100% - 0px);
         }
       }
 
       @media only screen and (min-width:728px) {
         .Main__Ryoanji-sc-1ebpejr-1 .c1 {
-          height: calc(100% - 12px);
+          height: calc(100% - 0px);
         }
       }
 
@@ -173,6 +174,16 @@ describe('After the image fails to be loaded', () => {
     await waitFor(() => {
       expect(screen.getByText(mockProps.alt)).toBeVisible();
     });
+  });
+});
+
+describe('disables lazy-loading with priority prop', () => {
+  test('with priority prop value', () => {
+    render(<ImageWithPlaceholder {...mockProps} priority />);
+    expect(screen.getByAltText(mockProps.alt)).not.toHaveAttribute(
+      'loading',
+      'lazy',
+    );
   });
 });
 
@@ -232,7 +243,7 @@ describe('changes UI by prop values', () => {
       }
 
       .Main__Kohoan-sc-1ebpejr-2 .c4 {
-        height: calc(100% - 7px);
+        height: calc(100% - 0px);
         background-color: rgb(17,17,17);
         background-image: radial-gradient( circle farthest-side at 50% 150%, rgb(17,17,17) 16.666666666666664%, rgb(124,124,124) 20.666666666666664%, rgb(124,124,124) 21%, rgb(17,17,17) 25%, rgb(17,17,17) 33.33333333333333%, rgb(124,124,124) 37.33333333333333%, rgb(124,124,124) 37.666666666666664%, rgb(17,17,17) 41.666666666666664%, rgb(17,17,17) 50%, rgb(124,124,124) 54%, rgb(124,124,124) 54.33333333333333%, rgb(17,17,17) 58.33333333333333%, rgb(17,17,17) 66.66666666666666%, transparent 66.66666666666666%, transparent ),radial-gradient( circle farthest-corner at 0% 100%, rgb(17,17,17) 12.5%, rgb(124,124,124) 15.5%, rgb(124,124,124) 15.75%, rgb(17,17,17) 18.75%, rgb(17,17,17) 25%, rgb(124,124,124) 28%, rgb(124,124,124) 28.25%, rgb(17,17,17) 31.25%, rgb(17,17,17) 37.5%, rgb(124,124,124) 40.5%, rgb(124,124,124) 40.75%, rgb(17,17,17) 43.75%, rgb(17,17,17) 50%, transparent 50%, transparent ),radial-gradient( circle farthest-corner at 100% 100%, rgb(17,17,17) 12.5%, rgb(124,124,124) 15.5%, rgb(124,124,124) 15.75%, rgb(17,17,17) 18.75%, rgb(17,17,17) 25%, rgb(124,124,124) 28%, rgb(124,124,124) 28.25%, rgb(17,17,17) 31.25%, rgb(17,17,17) 37.5%, rgb(124,124,124) 40.5%, rgb(124,124,124) 40.75%, rgb(17,17,17) 43.75%, rgb(17,17,17) 50%, transparent 50%, transparent ),radial-gradient(circle farthest-corner at 50% 50%, rgb(17,17,17) 25%, rgb(124,124,124) 31%, rgb(124,124,124) 31.5%, rgb(17,17,17) 37.5%, rgb(17,17,17) 50%, rgb(124,124,124) 56%, rgb(124,124,124) 56.5%, rgb(17,17,17) 62.5%, rgb(17,17,17) 75%, rgb(124,124,124) 81%, rgb(124,124,124) 81.5%, rgb(17,17,17) 87.5%, rgb(17,17,17) 100%, transparent 100%, transparent );
         background-repeat: repeat;
@@ -240,7 +251,7 @@ describe('changes UI by prop values', () => {
       }
 
       .Main__Ryoanji-sc-1ebpejr-1 .c4 {
-        height: calc(100% - 8px);
+        height: calc(100% - 0px);
         background-color: rgb(240,240,240);
         background-image: radial-gradient( circle closest-side,rgba(255,255,255,0) 91%,rgb(255,255,255) 99%,rgba(255,255,255,0) ),radial-gradient( circle closest-side,rgb(240,240,240) 91%,rgb(255,255,255) 99%,rgb(240,240,240) );
         background-position: 0 0,1.75rem 1.75rem;
@@ -249,6 +260,9 @@ describe('changes UI by prop values', () => {
       }
 
       .c2 {
+        display: block;
+        height: auto;
+        max-width: 100%;
         opacity: 0;
         -webkit-transition: opacity 500ms linear;
         transition: opacity 500ms linear;
@@ -323,13 +337,13 @@ describe('changes UI by prop values', () => {
 
       @media only screen and (min-width:728px) {
         .Main__Kohoan-sc-1ebpejr-2 .c4 {
-          height: calc(100% - 10px);
+          height: calc(100% - 0px);
         }
       }
 
       @media only screen and (min-width:728px) {
         .Main__Ryoanji-sc-1ebpejr-1 .c4 {
-          height: calc(100% - 12px);
+          height: calc(100% - 0px);
         }
       }
 
@@ -338,29 +352,15 @@ describe('changes UI by prop values', () => {
         data-testid="image-wrapper"
         width="100"
       >
-        <div
-          style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
-        >
-          <div
-            style="box-sizing: border-box; display: block; max-width: 100%;"
-          >
-            <img
-              alt=""
-              aria-hidden="true"
-              role="presentation"
-              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
-              style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
-            />
-          </div>
-          <noscript />
-          <img
-            alt="alt-text"
-            class="c2"
-            decoding="async"
-            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-          />
-        </div>
+        <img
+          alt="alt-text"
+          class="c2"
+          decoding="async"
+          height="100"
+          loading="lazy"
+          src="/dummy.jpg"
+          width="100"
+        />
         <p
           class="c3 c4 c5 c6"
         >

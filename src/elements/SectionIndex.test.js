@@ -270,7 +270,7 @@ describe('renders UI correctly:', () => {
         transform: translateX( 5px );
         padding-left: 0.5313rem;
         padding-right: 0.5313rem;
-        padding-top: 0.2813rem;
+        padding-top: 0.5313rem;
         position: relative;
         z-index: 2;
       }
@@ -307,7 +307,7 @@ describe('renders UI correctly:', () => {
         text-indent: -5px;
         padding-left: 0.5313rem;
         padding-right: 0.5313rem;
-        padding-top: 0.2813rem;
+        padding-top: 0.5313rem;
         position: relative;
         z-index: 2;
       }
