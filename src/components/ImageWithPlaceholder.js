@@ -71,21 +71,18 @@ const ImageWithPlaceholder = ({
   ...props
 }) => {
   // https://codebrahma.com/how-to-smoothly-render-images-in-react-app/
-  const [imageLoaded, setImageLoaded] = useState(false);
-  const [isSrcValid, setIsSrcValid] = useState(!!src);
-  const loadingMessage = <Placeholder>Loading...</Placeholder>;
-  const errorMessage = (
-    <Placeholder>
-      {alt} <Span smallcaps>(We’re sorry for failing to load the image.)</Span>
-    </Placeholder>
-  );
+  const [status, setStatus] = useState('loading');
+
+  const imageLoaded = status === 'loaded';
+  const error = status === 'error';
+
   const imageStyled = (
     <ImageStyled
       decoding="async"
       loaded={imageLoaded}
       loading={priority ? null : `lazy`}
-      onError={() => setIsSrcValid(false)}
-      onLoad={() => setImageLoaded(true)}
+      onError={() => setStatus('error')}
+      onLoad={() => setStatus('loaded')}
       src={src}
       alt={alt}
       width={width}
@@ -93,11 +90,20 @@ const ImageWithPlaceholder = ({
       {...props}
     />
   );
+
+  const loadingMessage = <Placeholder>Loading...</Placeholder>;
+  const errorMessage = (
+    <Placeholder>
+      {alt} <Span smallcaps>(We’re sorry for failing to load the image.)</Span>
+    </Placeholder>
+  );
   const placeholder = imageLoaded
     ? null
-    : isSrcValid
-    ? loadingMessage
-    : errorMessage;
+    : error
+    ? errorMessage
+    : loadingMessage;
+
+  // rendering
   if (kohoan) {
     return (
       <Wrapper.Kohoan width={width} data-testid="image-wrapper">
@@ -118,6 +124,7 @@ const ImageWithPlaceholder = ({
 ImageWithPlaceholder.propTypes = {
   kohoan: PropTypes.bool,
   priority: PropTypes.bool,
+  src: PropTypes.string.isRequired,
 };
 
 export default ImageWithPlaceholder;
