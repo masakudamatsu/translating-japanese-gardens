@@ -82,35 +82,14 @@ const Navigation = ({currentPage, navShown, setNavShown}) => {
       >
         <NavigationItem
           currentPage={currentPage}
-          pageName="byodoin"
-          textContent="Byodo-in"
-        />
-        <NavigationItem
-          currentPage={currentPage}
-          pageName="daisenin"
-          textContent="Daisen-in"
-        />
-        <NavigationItem
-          currentPage={currentPage}
           pageName="kohoan"
           textContent="Koho-an"
-        />
-        <NavigationItem
-          currentPage={currentPage}
-          pageName="osawa-pond"
-          textContent="Osawa Pond"
         />
         <NavigationItem
           currentPage={currentPage}
           pageName="ryoanji"
           textContent="Ryoan-ji"
         />
-        <NavigationItem
-          currentPage={currentPage}
-          pageName="saihoji"
-          textContent="Saiho-ji"
-        />
-        <NavTop.Li>About</NavTop.Li>
       </NavTop.Ul>
     </NavTop>
   );
