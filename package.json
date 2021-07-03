@@ -38,7 +38,7 @@
     "report:combined:local": "npm run report:combined:ci && open coverage/lcov-report/index.html",
     "remove:report": "rm -r .nyc_output || true",
     "prepare": "husky install",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release --branches main"
   },
   "repository": {
     "type": "git",
