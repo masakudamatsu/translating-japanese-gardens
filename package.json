@@ -10,12 +10,13 @@
     "postci:tests": "npm run report:combined",
     "commit": "git-cz",
     "cy:open": "cypress open --env coverage=false",
-    "precy:run": "rm -r .nyc_output || true",
     "cy:run": "cypress run",
+    "precy:run": "npm run remove:report",
     "dev": "next dev",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|json)\"",
     "lint": "eslint --ignore-path .gitignore .",
     "snapshot": "percy exec -- cypress run --spec \"cypress/e2e/snapshot.js\"",
+    "presnapshot": "npm run remove:report",
     "start": "next start",
     "test": "jest --watch",
     "test:coverage": "npm-run-all --parallel test:coverage:unit test:coverage:e2e",
@@ -34,7 +35,8 @@
     "prereport:combined": "npm run combine:reports",
     "report:combined": "is-ci \"report:combined:ci\" \"report:combined:local\"",
     "report:combined:ci": "npx nyc report --reporter lcov --reporter text --report-dir coverage --check-coverage",
-    "report:combined:local": "npm run report:combined:ci && open coverage/lcov-report/index.html"
+    "report:combined:local": "npm run report:combined:ci && open coverage/lcov-report/index.html",
+    "remove:report": "rm -r .nyc_output || true"
   },
   "repository": {
     "type": "git",
