@@ -1,6 +1,6 @@
 {
   "name": "translating-japanese-gardens",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Source code for Translating Japanese Gardens, a website that hosts a collection of essays on historical landscape design in Japan",
   "main": "pages/index.js",
   "scripts": {
@@ -37,11 +37,12 @@
     "report:combined:ci": "npx nyc report --reporter lcov --reporter text --report-dir coverage --check-coverage",
     "report:combined:local": "npm run report:combined:ci && open coverage/lcov-report/index.html",
     "remove:report": "rm -r .nyc_output || true",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/masakudamatsu/translating-japanese-gardens.git"
+    "url": "https://github.com/masakudamatsu/translating-japanese-gardens.git"
   },
   "keywords": [
     "Japanese gardens",
@@ -101,7 +102,8 @@
     "npm-run-all": "^4.1.5",
     "prettier": "^2.2.0",
     "scroll-to-bottomjs": "1.1.0",
-    "start-server-and-test": "1.12.0"
+    "start-server-and-test": "1.12.0",
+    "semantic-release": "^17.4.4"
   },
   "lint-staged": {
     "*.+(js|ts|tsx)": [
