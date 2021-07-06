@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 
 import {colour} from 'src/utils/colorScheme';
 import {font} from 'src/utils/fontScheme';
+import {size} from 'src/utils/sizeScheme';
 
 const Svg = styled.svg`
   fill: ${colour.index.siteTitle.color};
@@ -15,12 +16,19 @@ const Svg = styled.svg`
 
 const AlternateCap = styled.tspan`
   font-feature-settings: 'salt';
+  /* Make capital T taller, which moves the left-edge to the left by 7px */
 `;
 
+const viewBox = `0 0 ${size.siteTitle.width.original} ${size.siteTitle.height.original}`;
 const SiteTitle = ({ariaHidden, className}) => {
   return (
     <Svg
-      viewBox="0 0 320 181"
+      viewBox={viewBox}
+      // The margin values are:
+      //   top: 13px
+      //   left: 12px
+      //   bottom: 18px
+      //   right: 27px
       role="img"
       aria-labelledby="site-title"
       aria-hidden={ariaHidden}

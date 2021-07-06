@@ -90,27 +90,27 @@ describe('renders UI correctly', () => {
       .c1 {
         fill: rgb(255,255,255);
         float: left;
-        -webkit-transform: translate(-8px,15px);
-        -ms-transform: translate(-8px,15px);
-        transform: translate(-8px,15px);
+        -webkit-transform: translate(-6px,5px);
+        -ms-transform: translate(-6px,5px);
+        transform: translate(-6px,5px);
         width: 160px;
       }
 
       @media only screen and (min-width:31.2375rem) {
         .c1 {
           width: 253px;
-          -webkit-transform: translate(-10px,0px);
-          -ms-transform: translate(-10px,0px);
-          transform: translate(-10px,0px);
+          -webkit-transform: translate(-9.4875px,0px);
+          -ms-transform: translate(-9.4875px,0px);
+          transform: translate(-9.4875px,0px);
         }
       }
 
       @media only screen and (min-width:728px) {
         .c1 {
           width: 364px;
-          -webkit-transform: translate(-10px,0px);
-          -ms-transform: translate(-10px,0px);
-          transform: translate(-10px,0px);
+          -webkit-transform: translate(-13.65px,0px);
+          -ms-transform: translate(-13.65px,0px);
+          transform: translate(-13.65px,0px);
         }
       }
 

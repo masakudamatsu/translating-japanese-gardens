@@ -12,6 +12,7 @@ import {
   scale,
 } from 'src/utils/fontScheme';
 import remify from 'src/utils/remify';
+import {size} from 'src/utils/sizeScheme';
 import {spaceToTrim, vspace} from 'src/utils/vspaceScheme';
 
 const Footer = styled.footer`
@@ -34,18 +35,30 @@ Footer.BottomBackground = styled(Footer.TopBackground)`
   }
 `;
 
+const translateX = {
+  mobile:
+    -(size.siteTitle.margin.left * size.siteTitle.width.footer.mobile) /
+    size.siteTitle.width.original,
+  tablet:
+    -(size.siteTitle.margin.left * size.siteTitle.width.footer.tablet) /
+    size.siteTitle.width.original,
+  desktop:
+    -(size.siteTitle.margin.left * size.siteTitle.width.footer.desktop) /
+    size.siteTitle.width.original,
+};
+
 Footer.DropCap = styled(SiteTitle)`
   fill: ${colour.footer.onSurface};
   float: left;
-  transform: translate(-8px, 15px);
-  width: 160px;
+  transform: translate(${translateX.mobile}px, 5px);
+  width: ${size.siteTitle.width.footer.mobile}px;
   @media only screen and ${breakpoint.sideMargin('footer')} {
-    width: 253px;
-    transform: translate(-10px, 0px);
+    width: ${size.siteTitle.width.footer.tablet}px;
+    transform: translate(${translateX.tablet}px, 0px);
   }
   @media only screen and ${breakpoint.fontSize} {
-    width: 364px;
-    transform: translate(-10px, 0px);
+    width: ${size.siteTitle.width.footer.desktop}px;
+    transform: translate(${translateX.desktop}px, 0px);
   }
 `;
 
