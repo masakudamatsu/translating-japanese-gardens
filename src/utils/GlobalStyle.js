@@ -1,8 +1,18 @@
 import {createGlobalStyle} from 'styled-components';
 import {colour} from 'src/utils/colorScheme';
 
+// glyphhanger --whitelist=龍安寺孤篷庵 --subset=ShipporiMinchoB1-Medium.ttf
 const GlobalStyle = createGlobalStyle`
 /* Self-hosted fonts */
+@font-face {
+  font-family: 'Shippori Mincho B1';
+  src: url('fonts/ShipporiMinchoB1-Medium-subset.woff2') format('woff2'),
+       url('fonts/ShipporiMinchoB1-Medium-subset.zopfli.woff') format('woff'),
+       url('fonts/ShipporiMinchoB1-Medium-subset.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
 @font-face {
   font-family: 'Reforma 1918';
   src: url('fonts/Reforma1918-Blanca.eot?#iefix') format('embedded-opentype'), /* IE8 or earlier */

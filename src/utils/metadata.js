@@ -15,7 +15,6 @@ export const index = {
   googleFonts: [
     'family=Cormorant+SC:wght@700',
     'family=Playfair+Display:wght@600',
-    'family=Shippori+Mincho+B1:wght@500',
   ],
 };
 export const kohoan = {
