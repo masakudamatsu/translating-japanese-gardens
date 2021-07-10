@@ -28,6 +28,9 @@ build/
 # files related to the project (Mood board etc.)
 resources/
 
+# master image/font files
+assets-master/
+
 # Uncomment once cloned
 ## template scripts
 #template*.js
