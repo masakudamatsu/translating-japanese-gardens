@@ -13,8 +13,6 @@ const Garden = ({currentPage, gardenName, description, image, year}) => {
         <SectionIndex.Figure>
           <ImageWithPlaceholder
             src={image.src}
-            srcSet={image.srcSet}
-            sizes={image.sizes}
             width={image.width}
             height={image.height}
             alt={image.alt}

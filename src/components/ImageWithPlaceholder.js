@@ -86,9 +86,7 @@ const ImageWithPlaceholder = ({
 
   const imageStyled = (
     <ImageStyled
-      decoding="async"
       loaded={imageLoaded}
-      loading={priority ? null : `lazy`}
       onError={() => setStatus('error')}
       onLoad={() => setStatus('loaded')}
       ref={img}
