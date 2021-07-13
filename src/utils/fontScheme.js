@@ -5,7 +5,9 @@ import {
   libreBaskerville,
   playfairDisplay,
   playfairDisplaySC,
-  reforma1918,
+  reforma1918grisItalica,
+  reforma1918blanca,
+  reforma1918gris,
   shipporiMincho,
   shipporiMinchoB1,
 } from './fontMetrics';
@@ -28,13 +30,13 @@ export const scale = 5 / 3;
 
 export const font = {
   footer: {
-    family: reforma1918.fontFamily,
-    metrics: reforma1918.fontMetrics,
+    family: reforma1918blanca.fontFamily,
+    metrics: reforma1918blanca.fontMetrics,
     xHeight: {
       mobile: xHeight('mobile'),
       desktop: xHeight('desktop'),
     },
-    weight: 300,
+    weight: reforma1918blanca.fontWeight,
     lineHeightRatio: {
       mobile: {xHeight: 4, betweenLines: 9},
       desktop: {xHeight: 2, betweenLines: 5},
@@ -45,28 +47,28 @@ export const font = {
   },
   index: {
     main: {
-      family: reforma1918.fontFamily,
-      metrics: reforma1918.fontMetrics,
+      family: reforma1918blanca.fontFamily,
+      metrics: reforma1918blanca.fontMetrics,
       xHeight: {
         mobile: xHeight('mobile'),
         desktop: xHeight('desktop'),
       },
-      weight: 300,
+      weight: reforma1918blanca.fontWeight,
       lineHeightRatio: {
         mobile: {xHeight: 4, betweenLines: 7},
         desktop: {xHeight: 1, betweenLines: 2},
       },
     },
     h2: {
-      family: reforma1918.fontFamily,
-      metrics: reforma1918.fontMetrics,
+      family: reforma1918grisItalica.fontFamily,
+      metrics: reforma1918grisItalica.fontMetrics,
       xHeight: {
         mobile: xHeight('mobile'),
         tablet: xHeight('mobile') * scale,
         desktop: xHeight('desktop'),
       },
-      style: 'italic',
-      weight: 500,
+      style: reforma1918grisItalica.fontStyle,
+      weight: reforma1918grisItalica.fontWeight,
     },
     kanji: {
       family: shipporiMinchoB1.fontFamily,
@@ -79,9 +81,9 @@ export const font = {
       writingMode: 'vertical-lr', // Safari screws up the absolute positioning with `vertical-rl`...
     },
     siteTitle: {
-      family: reforma1918.fontFamily,
+      family: reforma1918gris.fontFamily,
       size: '48px',
-      weight: 500,
+      weight: reforma1918gris.fontWeight,
     },
   },
   kohoan: {
@@ -318,13 +320,13 @@ export const font = {
     },
   },
   topAppBar: {
-    family: reforma1918.fontFamily,
-    metrics: reforma1918.fontMetrics,
+    family: reforma1918blanca.fontFamily,
+    metrics: reforma1918blanca.fontMetrics,
     capHeight: {
       mobile: 16,
       desktop: 16,
     },
-    weight: 300,
+    weight: reforma1918blanca.fontWeight,
   },
 };
 

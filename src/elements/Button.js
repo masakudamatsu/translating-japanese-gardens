@@ -60,7 +60,7 @@ Button.DivFrame.propTypes = {
 };
 
 Button.SvgSurface = styled.svg`
-  font-family: 'Reforma 1918', sans-serif; /* 'sans-serif' to make the fallback look like a standard hamburger menu icon */
+  font-family: 'Reforma 1918 Blanca', sans-serif; /* 'sans-serif' to make the fallback look like a standard hamburger menu icon */
   font-size: 33px; /* to make the 'height' of uppercase I 25px long */
   font-weight: 300;
   height: 100%; /* i.e. 48px set in NavTop.Button.js */

@@ -81,7 +81,7 @@ describe('renders UI correctly:', () => {
     const {container} = render(<SectionIndex.H2 {...mockProps} />);
     expect(container).toMatchInlineSnapshot(`
       .c0 {
-        font-family: 'Reforma 1918',serif;
+        font-family: 'Reforma 1918 Gris Italica',serif;
         font-size: 1.0931rem;
         font-weight: 500;
         font-style: italic;
@@ -165,7 +165,7 @@ describe('renders UI correctly:', () => {
     const {container} = render(<SectionIndex.Figure {...mockProps} />);
     expect(container).toMatchInlineSnapshot(`
       .c1 {
-        font-family: 'Reforma 1918',serif;
+        font-family: 'Reforma 1918 Blanca',serif;
         font-size: 1.0931rem;
         font-weight: 300;
         line-height: 1.3365;
@@ -331,7 +331,7 @@ describe('renders UI correctly:', () => {
     const {container} = render(<SectionIndex.P />);
     expect(container).toMatchInlineSnapshot(`
       .c1 {
-        font-family: 'Reforma 1918',serif;
+        font-family: 'Reforma 1918 Blanca',serif;
         font-size: 1.0931rem;
         font-weight: 300;
         line-height: 1.3365;

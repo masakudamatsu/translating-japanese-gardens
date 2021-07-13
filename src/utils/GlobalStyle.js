@@ -14,7 +14,7 @@ const GlobalStyle = createGlobalStyle`
   font-display: swap;
 }
 @font-face {
-  font-family: 'Reforma 1918';
+  font-family: 'Reforma 1918 Blanca';
   src: url('fonts/Reforma1918-Blanca.eot?#iefix') format('embedded-opentype'), /* IE8 or earlier */
        url('fonts/Reforma1918-Blanca.woff2') format('woff2'), /* Super Modern Browsers */
        url('fonts/Reforma1918-Blanca.woff') format('woff'), /* Modern Browsers */
@@ -26,7 +26,7 @@ const GlobalStyle = createGlobalStyle`
 }
 
 @font-face {
-  font-family: 'Reforma 1918';
+  font-family: 'Reforma 1918 Gris';
   src: url('fonts/Reforma1918-Gris.eot?#iefix') format('embedded-opentype'), /* IE8 or earlier */
        url('fonts/Reforma1918-Gris.woff2') format('woff2'), /* Super Modern Browsers */
        url('fonts/Reforma1918-Gris.woff') format('woff'), /* Modern Browsers */
@@ -38,7 +38,7 @@ const GlobalStyle = createGlobalStyle`
 }
 
 @font-face {
-  font-family: 'Reforma 1918';
+  font-family: 'Reforma 1918 Gris Italica';
   src: url('fonts/Reforma1918-GrisItalica.eot') format('embedded-opentype'), /* IE8 or earlier */
        url('fonts/Reforma1918-GrisItalica.woff2') format('woff2'), /* Super Modern Browsers */
        url('fonts/Reforma1918-GrisItalica.woff') format('woff'), /* Modern Browsers */

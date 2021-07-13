@@ -11,7 +11,7 @@ test('renders UI correctly', () => {
   expect(container).toMatchInlineSnapshot(`
     .c0 {
       fill: rgb(59,105,114);
-      font-family: 'Reforma 1918',serif;
+      font-family: 'Reforma 1918 Gris',serif;
       font-size: 48px;
       font-weight: 500;
       width: 100%;

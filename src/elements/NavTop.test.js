@@ -84,7 +84,7 @@ describe('NavTop.Li renders UI correctly', () => {
       .c0 {
         background-color: rgb(33,79,89);
         border-bottom: 1px solid rgba(255,255,255,0.42);
-        font-family: 'Reforma 1918',serif;
+        font-family: 'Reforma 1918 Blanca',serif;
         font-size: 1.3333rem;
         font-weight: 300;
         line-height: normal;
@@ -143,7 +143,7 @@ describe('NavTop.Li renders UI correctly', () => {
       .c0 {
         background-color: rgba(33,79,89,0.58);
         border-bottom: 1px solid rgba(255,255,255,0.42);
-        font-family: 'Reforma 1918',serif;
+        font-family: 'Reforma 1918 Blanca',serif;
         font-size: 1.3333rem;
         font-weight: 300;
         line-height: normal;
