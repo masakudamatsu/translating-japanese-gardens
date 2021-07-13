@@ -53,13 +53,35 @@ export const playfairDisplaySC = {
   }, // measured by myself
 };
 
-export const reforma1918 = {
-  fontFamily: "'Reforma 1918', serif",
+export const reforma1918blanca = {
+  fontFamily: "'Reforma 1918 Blanca', serif",
   fontMetrics: {
     unitsPerEm: 1000,
     xHeight: 486,
     capHeight: 750,
   }, // measured by opentype.js
+  fontWeight: 300,
+};
+
+export const reforma1918gris = {
+  fontFamily: "'Reforma 1918 Gris', serif",
+  fontMetrics: {
+    unitsPerEm: 1000,
+    xHeight: 486,
+    capHeight: 750,
+  }, // measured by opentype.js
+  fontWeight: 500,
+};
+
+export const reforma1918grisItalica = {
+  fontFamily: "'Reforma 1918 Gris Italica', serif",
+  fontMetrics: {
+    unitsPerEm: 1000,
+    xHeight: 486,
+    capHeight: 750,
+  }, // measured by opentype.js
+  fontStyle: 'italic',
+  fontWeight: 500,
 };
 
 export const shipporiMincho = {

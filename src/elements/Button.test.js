@@ -145,7 +145,7 @@ describe('Button.SvgSurface renders UI correctly', () => {
     const {container} = render(<Button.SvgSurface />);
     expect(container).toMatchInlineSnapshot(`
       .c1 {
-        font-family: 'Reforma 1918',sans-serif;
+        font-family: 'Reforma 1918 Blanca',sans-serif;
         font-size: 33px;
         font-weight: 300;
         height: 100%;
