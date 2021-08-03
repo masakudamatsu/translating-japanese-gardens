@@ -6,7 +6,7 @@
   "scripts": {
     "build": "next build && next export",
     "ci": "start-server-and-test start http://localhost:3000 ci:tests",
-    "ci:tests": "npm-run-all --parallel lint test:coverage:unit test:coverage:e2e",
+    "ci:tests": "npm-run-all --parallel lint test:coverage:unit test:coverage:e2e snapshot",
     "postci:tests": "npm run report:combined",
     "commit": "git-cz",
     "cy:open": "cypress open --env coverage=false",
@@ -16,7 +16,6 @@
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|json)\"",
     "lint": "eslint --ignore-path .gitignore .",
     "snapshot": "percy exec -- cypress run --spec \"cypress/e2e/snapshot.js\"",
-    "presnapshot": "npm run remove:report",
     "start": "next start",
     "subset": "start-server-and-test start http://localhost:3000 subset:all",
     "presubset": "npm run build",
@@ -107,9 +106,8 @@
     "lint-staged": "10.5.4",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.2.0",
-    "scroll-to-bottomjs": "1.1.0",
-    "start-server-and-test": "1.12.0",
-    "semantic-release": "^17.4.4"
+    "semantic-release": "^17.4.4",
+    "start-server-and-test": "1.12.0"
   },
   "lint-staged": {
     "*.+(js|ts|tsx)": [
