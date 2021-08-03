@@ -1,10 +1,12 @@
-let scrollToBottom = require('scroll-to-bottomjs'); // to deal with lazy-loading images. see https://docs.percy.io/docs/capturing-lazy-loading-images
-
 describe('Integration test with visual testing', () => {
-  it('Loads the homepage', function () {
+  it('Loads the homepage', () => {
     cy.visit('/');
-    // Scroll to the bottom so all the images will be loaded before taking a snapshot
-    cy.window().then(cyWindow => scrollToBottom({remoteWindow: cyWindow}));
+    cy.scrollTo('bottom', {duration: 2000}); // Scroll to the bottom so all the images will be loaded before taking a snapshot
+    // Percy docs recommends scroll-to-bottomjs
+    // https://docs.percy.io/docs/capturing-lazy-loading-images#examples
+    // but it appears to fix the scroll position at the bottom
+    // so cy.scrollTo('top') doesn't appear to work afterwards, to reveal the top app bar
+
     cy.percySnapshot('index', {widths: [320, 410, 648, 836, 1011]});
     // 320px for the narrowest screen to support
     // 410px for font-size change breakpoint
