@@ -187,7 +187,7 @@ export const font = {
     kanji: {
       family: shipporiMincho.fontFamily,
       size: '1em', // Baseline 1px below LibreBaskerville's, Height 2px above Libre Baskerville's cap height
-      weight: 500, // Match Libre Baskerville 400
+      weight: shipporiMincho.fontWeight,
       lineHeight: 'normal', // line height doesn't change up to around 1.5
     },
     spanLeadIn: {
@@ -311,7 +311,7 @@ export const font = {
     kanji: {
       family: shipporiMincho.fontFamily,
       size: '0.85em' /* to match with Cormorant Garamond body text */,
-      weight: 500 /* to match with stroke width of Cormorant Garamond SemiBold (600) */,
+      weight: shipporiMincho.fontWeight,
     },
     spanLeadIn: {
       family: cormorantSC.fontFamily,
