@@ -5,6 +5,15 @@ import {colour} from 'src/utils/colorScheme';
 const GlobalStyle = createGlobalStyle`
 /* Self-hosted fonts */
 @font-face {
+  font-family: 'Shippori Mincho';
+  src: url('fonts/ShipporiMincho-Medium-subset.woff2') format('woff2'),
+       url('fonts/ShipporiMincho-Medium-subset.zopfli.woff') format('woff'),
+       url('fonts/ShipporiMincho-Medium-subset.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
   font-family: 'Shippori Mincho B1';
   src: url('fonts/ShipporiMinchoB1-Medium-subset.woff2') format('woff2'),
        url('fonts/ShipporiMinchoB1-Medium-subset.zopfli.woff') format('woff'),

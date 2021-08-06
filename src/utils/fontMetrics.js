@@ -86,6 +86,7 @@ export const reforma1918grisItalica = {
 
 export const shipporiMincho = {
   fontFamily: "'Shippori Mincho', serif",
+  fontWeight: 500, // to match with stroke width of Cormorant Garamond SemiBold (600) and Libre Baskerville 400
 };
 
 export const shipporiMinchoB1 = {

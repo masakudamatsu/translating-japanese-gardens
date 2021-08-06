@@ -25,7 +25,6 @@ export const kohoan = {
     'family=Libre+Baskerville:ital,wght@0,400;0,700;1,400',
     'family=Playfair+Display+SC:wght@400',
     'family=Playfair+Display:wght@600',
-    'family=Shippori+Mincho:wght@500',
   ],
 };
 export const ryoanji = {
@@ -36,6 +35,5 @@ export const ryoanji = {
     'family=Cormorant+Garamond:ital,wght@0,600;1,600',
     'family=Cormorant+SC:wght@600;700',
     'family=Cormorant:wght@700',
-    'family=Shippori+Mincho:wght@500',
   ],
 };
