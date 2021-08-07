@@ -287,7 +287,7 @@ export const font = {
         mobile: xHeight('mobile') * scale,
         desktop: xHeight('desktop') * scale,
       },
-      weight: 700,
+      weight: cormorant.fontWeight,
       lineHeightRatio: {
         mobile: {xHeight: 5, betweenLines: 8}, // Set the line height to be [ x-height +  cap-height ], assuming the cap-to-x height ratio is 8:5.
       },
@@ -301,7 +301,7 @@ export const font = {
         mobile: xHeight('mobile'),
         desktop: xHeight('desktop'),
       },
-      weight: 700,
+      weight: cormorant.fontWeight,
       lineHeightRatio: {
         mobile: {xHeight: 5, betweenLines: 8}, // Set the line height to be [ x-height +  cap-height ], assuming the cap-to-x height ratio is 8:5.
       },

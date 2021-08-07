@@ -5,6 +5,7 @@ export const cormorant = {
     xHeight: 402,
     capHeight: 642,
   }, // measured by myself
+  fontWeight: 700,
 };
 
 export const cormorantGaramond = {
