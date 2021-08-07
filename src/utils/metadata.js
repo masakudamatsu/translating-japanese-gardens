@@ -17,10 +17,7 @@ export const kohoan = {
   title: 'Koho-an Temple | 孤篷庵',
   description:
     'Koho-an Temple in Kyoto is a 17th-century masterpiece of spatial design, seemingly integrating architecture with gardens to take the visitor to an imaginary boat trip at sunset.',
-  googleFonts: [
-    'family=Libre+Baskerville:ital,wght@0,400;0,700;1,400',
-    'family=Playfair+Display+SC:wght@400',
-  ],
+  googleFonts: ['family=Libre+Baskerville:ital,wght@0,400;0,700;1,400'],
 };
 export const ryoanji = {
   title: 'Ryoan-ji Rock Garden | 龍安寺石庭',
