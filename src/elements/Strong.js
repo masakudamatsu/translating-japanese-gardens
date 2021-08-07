@@ -5,6 +5,7 @@ import {font} from 'src/utils/fontScheme';
 
 const Strong = styled.strong`
   ${Main.Ryoanji} & {
+    font-family: ${font.ryoanji.strong.family};
     font-style: ${font.ryoanji.strong.style};
     font-weight: ${font.ryoanji.strong.weight};
   }

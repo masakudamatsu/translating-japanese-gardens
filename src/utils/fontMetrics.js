@@ -18,6 +18,17 @@ export const cormorantGaramond = {
   fontWeight: 600,
 };
 
+export const cormorantGaramondItalic = {
+  fontFamily: "'Cormorant Garamond Italic', 'Times New Roman', serif",
+  fontMetrics: {
+    unitsPerEm: 1000,
+    xHeight: 398,
+    capHeight: 633,
+  },
+  fontStyle: 'italic',
+  fontWeight: 600,
+};
+
 export const cormorantSC = {
   fontFamily: "'Cormorant SC', 'Times New Roman', serif",
   fontMetrics: {

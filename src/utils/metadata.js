@@ -32,7 +32,7 @@ export const ryoanji = {
   description:
     'Ryoan-ji Rock Garden teaches us the principle of Zen Buddhism to live happily, with the layout of 15 rocks as a textbook.',
   googleFonts: [
-    'family=Cormorant+Garamond:ital,wght@0,600;1,600',
+    'family=Cormorant+Garamond:wght@600',
     'family=Cormorant+SC:wght@600;700',
   ],
 };

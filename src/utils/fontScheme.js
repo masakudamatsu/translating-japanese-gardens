@@ -1,6 +1,7 @@
 import {
   cormorant,
   cormorantGaramond,
+  cormorantGaramondItalic,
   cormorantSC,
   libreBaskerville,
   playfairDisplay,
@@ -226,6 +227,13 @@ export const font = {
       letterSpacing: '0.01em',
       textTransform: 'lowercase',
     },
+    cite: {
+      italic: {
+        family: cormorantGaramondItalic.fontFamily,
+        style: cormorantGaramondItalic.fontStyle,
+        weight: cormorantGaramondItalic.fontWeight,
+      },
+    },
     figCaption: {
       family: cormorantSC.fontFamily,
       metrics: cormorantSC.fontMetrics,
@@ -319,8 +327,9 @@ export const font = {
       wordSpacing: '-0.05em',
     },
     strong: {
-      style: 'italic',
-      weight: cormorantGaramond.fontWeight,
+      family: cormorantGaramondItalic.fontFamily,
+      style: cormorantGaramondItalic.fontStyle,
+      weight: cormorantGaramondItalic.fontWeight,
     },
   },
   topAppBar: {
