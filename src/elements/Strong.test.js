@@ -10,6 +10,7 @@ test('renders UI as expected', () => {
   expect(container).toMatchInlineSnapshot(`
     .Main__Ryoanji-sc-1ebpejr-1 .c0 {
       font-style: italic;
+      font-weight: 600;
     }
 
     <div>

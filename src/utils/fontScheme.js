@@ -318,6 +318,10 @@ export const font = {
       letterSpacing: '0.01em',
       wordSpacing: '-0.05em',
     },
+    strong: {
+      style: 'italic',
+      weight: cormorantGaramond.fontWeight,
+    },
   },
   topAppBar: {
     family: reforma1918blanca.fontFamily,
