@@ -4,6 +4,8 @@ import {
   cormorant,
   cormorantGaramond,
   cormorantGaramondItalic,
+  cormorantSCBold,
+  cormorantSCSemiBold,
 } from 'src/utils/fontMetrics';
 
 // glyphhanger --whitelist=龍安寺孤篷庵 --subset=ShipporiMinchoB1-Medium.ttf
@@ -34,6 +36,24 @@ const GlobalStyle = createGlobalStyle`
        url('fonts/CormorantGaramond-SemiBoldItalic-subset.ttf') format('truetype');
   font-style: ${cormorantGaramondItalic.fontStyle};
   font-weight: ${cormorantGaramondItalic.fontWeight};
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Cormorant SC Semi-bold';
+  src: url('fonts/CormorantSC-SemiBold-subset.woff2') format('woff2'),
+       url('fonts/CormorantSC-SemiBold-subset.zopfli.woff') format('woff'),
+       url('fonts/CormorantSC-SemiBold-subset.ttf') format('truetype');
+  font-style: normal;
+  font-weight: ${cormorantSCSemiBold.fontWeight};
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Cormorant SC Bold';
+  src: url('fonts/CormorantSC-Bold-subset.woff2') format('woff2'),
+       url('fonts/CormorantSC-Bold-subset.zopfli.woff') format('woff'),
+       url('fonts/CormorantSC-Bold-subset.ttf') format('truetype');
+  font-style: normal;
+  font-weight: ${cormorantSCBold.fontWeight};
   font-display: swap;
 }
 @font-face {

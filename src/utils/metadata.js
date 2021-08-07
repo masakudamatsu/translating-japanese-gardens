@@ -12,10 +12,7 @@ export const index = {
   title: 'Trasnlating Japanese Gardens',
   description:
     'A collection of essays that offers alternative takes on historical Japanese gardens, attempting to uncover the messages delivered with garden design',
-  googleFonts: [
-    'family=Cormorant+SC:wght@700',
-    'family=Playfair+Display:wght@600',
-  ],
+  googleFonts: ['family=Playfair+Display:wght@600'],
 };
 export const kohoan = {
   title: 'Koho-an Temple | 孤篷庵',
@@ -31,5 +28,4 @@ export const ryoanji = {
   title: 'Ryoan-ji Rock Garden | 龍安寺石庭',
   description:
     'Ryoan-ji Rock Garden teaches us the principle of Zen Buddhism to live happily, with the layout of 15 rocks as a textbook.',
-  googleFonts: ['family=Cormorant+SC:wght@600;700'],
 };
