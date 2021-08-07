@@ -148,7 +148,7 @@ export const font = {
         mobile: xHeight('mobile') * Math.pow(scale, 1),
         tablet: xHeight('mobile') * Math.pow(scale, 2),
       },
-      weight: 600,
+      weight: playfairDisplay.fontWeight,
       lineHeightRatio: {
         mobile: {xHeight: 1, betweenLines: 1},
       },
@@ -165,7 +165,7 @@ export const font = {
         mobile: xHeight('mobile') * scale,
         desktop: xHeight('desktop') * scale,
       },
-      weight: 600,
+      weight: playfairDisplay.fontWeight,
       lineHeightRatio: {
         mobile: {xHeight: 5, betweenLines: 7},
       },
@@ -179,7 +179,7 @@ export const font = {
         mobile: xHeight('mobile'),
         desktop: xHeight('desktop'),
       },
-      weight: 700,
+      weight: playfairDisplay.fontWeight,
       lineHeightRatio: {
         mobile: {xHeight: 5, betweenLines: 8}, // Set the line height to be [ x-height +  cap-height ], assuming the cap-to-x height ratio is 8:5.
       },

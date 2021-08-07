@@ -12,7 +12,7 @@ test('renders UI correctly', () => {
       color: rgb(255,255,255);
       font-family: 'Playfair Display',serif;
       font-size: 1.0316rem;
-      font-weight: 700;
+      font-weight: 600;
       -webkit-letter-spacing: 0.02em;
       -moz-letter-spacing: 0.02em;
       -ms-letter-spacing: 0.02em;

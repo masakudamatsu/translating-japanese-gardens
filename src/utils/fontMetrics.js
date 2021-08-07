@@ -66,6 +66,7 @@ export const playfairDisplay = {
     xHeight: 515,
     capHeight: 710,
   }, // measured by myself
+  fontWeight: 600,
 };
 
 export const playfairDisplaySC = {
