@@ -294,7 +294,7 @@ describe('renders UI correctly:', () => {
     const {container} = render(<SectionIndex.Latin gardenName="ryoanji" />);
     expect(container).toMatchInlineSnapshot(`
       .c1 {
-        font-family: 'Cormorant SC','Times New Roman',serif;
+        font-family: 'Cormorant SC Bold','Times New Roman',serif;
         font-size: 3.1331rem;
         font-weight: 700;
         -webkit-letter-spacing: 0.05em;

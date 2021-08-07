@@ -56,7 +56,7 @@ describe('renders UI correctly', () => {
       }
 
       .Main__Ryoanji-sc-1ebpejr-1 .c0 {
-        font-family: 'Cormorant SC','Times New Roman',serif;
+        font-family: 'Cormorant SC Semi-bold','Times New Roman',serif;
         font-size: 1.1279rem;
         font-weight: 600;
         font-variant-ligatures: normal;

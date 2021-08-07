@@ -2,7 +2,8 @@ import {
   cormorant,
   cormorantGaramond,
   cormorantGaramondItalic,
-  cormorantSC,
+  cormorantSCSemiBold,
+  cormorantSCBold,
   libreBaskerville,
   playfairDisplay,
   playfairDisplaySC,
@@ -223,7 +224,7 @@ export const font = {
       },
     },
     abbr: {
-      family: cormorantSC.fontFamily,
+      family: cormorantSCSemiBold.fontFamily,
       letterSpacing: '0.01em',
       textTransform: 'lowercase',
     },
@@ -235,13 +236,13 @@ export const font = {
       },
     },
     figCaption: {
-      family: cormorantSC.fontFamily,
-      metrics: cormorantSC.fontMetrics,
+      family: cormorantSCSemiBold.fontFamily,
+      metrics: cormorantSCSemiBold.fontMetrics,
       xHeight: {
         mobile: xHeight('mobile'),
         desktop: xHeight('desktop'),
       },
-      weight: 600,
+      weight: cormorantSCSemiBold.fontWeight,
       lineHeightRatio: {
         mobile: {xHeight: 2, betweenLines: 3},
         desktop: {xHeight: 4, betweenLines: 7},
@@ -261,14 +262,14 @@ export const font = {
       textAlign: 'right',
     },
     h1: {
-      family: cormorantSC.fontFamily,
-      metrics: cormorantSC.fontMetrics,
+      family: cormorantSCBold.fontFamily,
+      metrics: cormorantSCBold.fontMetrics,
       xHeight: {
         mobile: xHeight('mobile') * Math.pow(scale, 2),
         tablet: xHeight('mobile') * Math.pow(scale, 3),
         desktop: xHeight('desktop') * Math.pow(scale, 3),
       },
-      weight: 700,
+      weight: cormorantSCBold.fontWeight,
       lineHeightRatio: {
         mobile: {xHeight: 2, betweenLines: 1},
       },
@@ -322,7 +323,7 @@ export const font = {
       weight: shipporiMincho.fontWeight,
     },
     spanLeadIn: {
-      family: cormorantSC.fontFamily,
+      family: cormorantSCSemiBold.fontFamily,
       letterSpacing: '0.01em',
       wordSpacing: '-0.05em',
     },

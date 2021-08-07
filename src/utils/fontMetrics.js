@@ -29,13 +29,24 @@ export const cormorantGaramondItalic = {
   fontWeight: 600,
 };
 
-export const cormorantSC = {
-  fontFamily: "'Cormorant SC', 'Times New Roman', serif",
+export const cormorantSCSemiBold = {
+  fontFamily: "'Cormorant SC Semi-bold', 'Times New Roman', serif",
   fontMetrics: {
     unitsPerEm: 1000,
     xHeight: 471,
     capHeight: 630,
   }, // measured by myself
+  fontWeight: 600,
+};
+
+export const cormorantSCBold = {
+  fontFamily: "'Cormorant SC Bold', 'Times New Roman', serif",
+  fontMetrics: {
+    unitsPerEm: 1000,
+    xHeight: 471,
+    capHeight: 630,
+  }, // measured by myself
+  fontWeight: 700,
 };
 
 export const libreBaskerville = {
