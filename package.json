@@ -25,6 +25,8 @@
     "subset:cormorant:garamond:semibold:italic": "npx glyphhanger http://localhost:3000 --spider --subset=public/fonts/CormorantGaramond-SemiBoldItalic.ttf --family='Cormorant Garamond Italic'",
     "subset:cormorant:sc:semibold": "npx glyphhanger http://localhost:3000 --spider --subset=public/fonts/CormorantSC-SemiBold.ttf --family='Cormorant SC Semi-bold'",
     "subset:cormorant:sc:bold": "npx glyphhanger http://localhost:3000 --spider --subset=public/fonts/CormorantSC-Bold.ttf --family='Cormorant SC Bold'",
+    "subset:libre:baskerville": "npx glyphhanger http://localhost:3000 --spider --subset=public/fonts/LibreBaskerville-Regular.ttf --family='Libre Baskerville'",
+    "subset:libre:baskerville:italic": "npx glyphhanger http://localhost:3000 --spider --subset=public/fonts/LibreBaskerville-Italic.ttf --family='Libre Baskerville Italic'",
     "subset:playfair:display": "npx glyphhanger http://localhost:3000 --spider --subset=public/fonts/PlayfairDisplay-SemiBold.ttf --family='Playfair Display'",
     "subset:playfair:display:sc": "npx glyphhanger http://localhost:3000 --spider --subset=public/fonts/PlayfairDisplaySC-Regular.ttf --family='Playfair Display SC'",
     "subset:reforma1918:blanca": "npx glyphhanger http://localhost:3000 --spider --subset=public/fonts/Reforma1918-Blanca.ttf --family='Reforma 1918 Blanca'",

@@ -10,7 +10,9 @@ describe('renders UI as expected', () => {
     const {container} = render(<Cite.Italic />);
     expect(container).toMatchInlineSnapshot(`
       .Main__Kohoan-sc-1ebpejr-2 .c0 {
+        font-family: 'Libre Baskerville Italic','Verdana',serif;
         font-style: italic;
+        font-weight: 400;
       }
 
       .Main__Ryoanji-sc-1ebpejr-1 .c0 {

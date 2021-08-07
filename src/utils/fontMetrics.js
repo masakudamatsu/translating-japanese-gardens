@@ -49,14 +49,24 @@ export const cormorantSCBold = {
   fontWeight: 700,
 };
 
-export const libreBaskerville = {
+export const libreBaskervilleRegular = {
   fontFamily: "'Libre Baskerville', 'Verdana', serif", // Verdana is sans-serif, but its letter height and width matches a lot closer than Georgia, Trebuchet, or Times
-  fontWeight: 400,
   fontMetrics: {
     unitsPerEm: 1000,
     xHeight: 535,
     capHeight: 775,
   }, // measured by myself
+  fontWeight: 400,
+};
+export const libreBaskervilleRegularItalic = {
+  fontFamily: "'Libre Baskerville Italic', 'Verdana', serif", // Verdana is sans-serif, but its letter height and width matches a lot closer than Georgia, Trebuchet, or Times
+  fontMetrics: {
+    unitsPerEm: 1000,
+    xHeight: 535,
+    capHeight: 775,
+  }, // measured by myself
+  fontStyle: 'italic',
+  fontWeight: 400,
 };
 
 export const playfairDisplay = {

@@ -6,6 +6,8 @@ import {
   cormorantGaramondItalic,
   cormorantSCBold,
   cormorantSCSemiBold,
+  libreBaskervilleRegular,
+  libreBaskervilleRegularItalic,
   playfairDisplay,
   playfairDisplaySC,
 } from 'src/utils/fontMetrics';
@@ -56,6 +58,24 @@ const GlobalStyle = createGlobalStyle`
        url('fonts/CormorantSC-Bold-subset.ttf') format('truetype');
   font-style: normal;
   font-weight: ${cormorantSCBold.fontWeight};
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Libre Baskerville';
+  src: url('fonts/LibreBaskerville-Regular-subset.woff2') format('woff2'),
+       url('fonts/LibreBaskerville-Regular-subset.zopfli.woff') format('woff'),
+       url('fonts/LibreBaskerville-Regular-subset.ttf') format('truetype');
+  font-style: normal;
+  font-weight: ${libreBaskervilleRegular.fontWeight};
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Libre Baskerville Italic';
+  src: url('fonts/LibreBaskerville-Italic-subset.woff2') format('woff2'),
+       url('fonts/LibreBaskerville-Italic-subset.zopfli.woff') format('woff'),
+       url('fonts/LibreBaskerville-Italic-subset.ttf') format('truetype');
+  font-style: ${libreBaskervilleRegularItalic.fontStyle};
+  font-weight: ${libreBaskervilleRegularItalic.fontWeight};
   font-display: swap;
 }
 @font-face {

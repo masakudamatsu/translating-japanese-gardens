@@ -7,7 +7,9 @@ const Cite = styled.cite``;
 
 Cite.Italic = styled.cite`
   ${Main.Kohoan} & {
-    font-style: italic;
+    font-family: ${font.kohoan.italic.family};
+    font-style: ${font.kohoan.italic.style};
+    font-weight: ${font.kohoan.italic.weight};
   }
   ${Main.Ryoanji} & {
     font-family: ${font.ryoanji.cite.italic.family};

@@ -4,7 +4,8 @@ import {
   cormorantGaramondItalic,
   cormorantSCSemiBold,
   cormorantSCBold,
-  libreBaskerville,
+  libreBaskervilleRegular,
+  libreBaskervilleRegularItalic,
   playfairDisplay,
   playfairDisplaySC,
   reforma1918grisItalica,
@@ -90,13 +91,13 @@ export const font = {
   },
   kohoan: {
     article: {
-      family: libreBaskerville.fontFamily,
-      metrics: libreBaskerville.fontMetrics,
+      family: libreBaskervilleRegular.fontFamily,
+      metrics: libreBaskervilleRegular.fontMetrics,
       xHeight: {
         mobile: xHeight('mobile'),
         desktop: xHeight('desktop'),
       },
-      weight: 400,
+      weight: libreBaskervilleRegular.fontWeight,
       lineHeightRatio: {
         mobile: {xHeight: 1, betweenLines: 2},
         desktop: {xHeight: 4, betweenLines: 9},
@@ -185,6 +186,11 @@ export const font = {
       },
       letterSpacing: '0.02em',
       textTransform: 'uppercase',
+    },
+    italic: {
+      family: libreBaskervilleRegularItalic.fontFamily,
+      style: libreBaskervilleRegularItalic.fontStyle,
+      weight: libreBaskervilleRegularItalic.fontWeight,
     },
     kanji: {
       family: shipporiMincho.fontFamily,

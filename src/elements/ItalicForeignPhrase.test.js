@@ -8,13 +8,15 @@ const mockProps = {};
 test('renders UI as expected', () => {
   const {container} = render(<ItalicForeignPhrase />);
   expect(container).toMatchInlineSnapshot(`
-    .c0 {
+    .Main__Kohoan-sc-1ebpejr-2 .c0 {
+      font-family: 'Libre Baskerville Italic','Verdana',serif;
       font-style: italic;
+      font-weight: 400;
     }
 
     <div>
       <i
-        class="c0"
+        class="c0 "
       />
     </div>
   `);
