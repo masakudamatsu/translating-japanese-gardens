@@ -76,6 +76,7 @@ export const playfairDisplaySC = {
     xHeight: 610,
     capHeight: 710,
   }, // measured by myself
+  fontWeight: 400,
 };
 
 export const reforma1918blanca = {

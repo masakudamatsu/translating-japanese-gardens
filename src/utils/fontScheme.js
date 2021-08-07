@@ -121,7 +121,7 @@ export const font = {
         mobile: xHeight('mobile'),
         desktop: xHeight('desktop'),
       },
-      weight: 400,
+      weight: playfairDisplaySC.fontWeight,
       lineHeightRatio: {
         mobile: {xHeight: 2, betweenLines: 3},
         desktop: {xHeight: 4, betweenLines: 7},
