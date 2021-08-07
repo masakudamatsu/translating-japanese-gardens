@@ -34,6 +34,5 @@ export const ryoanji = {
   googleFonts: [
     'family=Cormorant+Garamond:ital,wght@0,600;1,600',
     'family=Cormorant+SC:wght@600;700',
-    'family=Cormorant:wght@700',
   ],
 };

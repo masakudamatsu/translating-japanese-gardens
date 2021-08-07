@@ -1,9 +1,19 @@
 import {createGlobalStyle} from 'styled-components';
 import {colour} from 'src/utils/colorScheme';
+import {cormorant} from 'src/utils/fontMetrics';
 
 // glyphhanger --whitelist=龍安寺孤篷庵 --subset=ShipporiMinchoB1-Medium.ttf
 const GlobalStyle = createGlobalStyle`
 /* Self-hosted fonts */
+@font-face {
+  font-family: 'Cormorant';
+  src: url('fonts/Cormorant-Bold-subset.woff2') format('woff2'),
+       url('fonts/Cormorant-Bold-subset.zopfli.woff') format('woff'),
+       url('fonts/Cormorant-Bold-subset.ttf') format('truetype');
+  font-style: normal;
+  font-weight: ${cormorant.fontWeight};
+  font-display: swap;
+}
 @font-face {
   font-family: 'Shippori Mincho';
   src: url('fonts/ShipporiMincho-Medium-subset.woff2') format('woff2'),
