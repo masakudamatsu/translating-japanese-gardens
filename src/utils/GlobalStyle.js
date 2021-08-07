@@ -6,6 +6,7 @@ import {
   cormorantGaramondItalic,
   cormorantSCBold,
   cormorantSCSemiBold,
+  playfairDisplay,
 } from 'src/utils/fontMetrics';
 
 // glyphhanger --whitelist=龍安寺孤篷庵 --subset=ShipporiMinchoB1-Medium.ttf
@@ -54,6 +55,15 @@ const GlobalStyle = createGlobalStyle`
        url('fonts/CormorantSC-Bold-subset.ttf') format('truetype');
   font-style: normal;
   font-weight: ${cormorantSCBold.fontWeight};
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('fonts/PlayfairDisplay-SemiBold-subset.woff2') format('woff2'),
+       url('fonts/PlayfairDisplay-SemiBold-subset.zopfli.woff') format('woff'),
+       url('fonts/PlayfairDisplay-SemiBold-subset.ttf') format('truetype');
+  font-style: normal;
+  font-weight: ${playfairDisplay.fontWeight};
   font-display: swap;
 }
 @font-face {

@@ -22,14 +22,14 @@ import Span from '../elements/Span';
 import SubSection from '../elements/SubSection';
 import Youtube from '../components/Youtube';
 
-import {index, kohoan} from 'src/utils/metadata';
+import {kohoan} from 'src/utils/metadata';
 
 export default function Kohoan() {
   const webfont = {
     server: 'https://fonts.gstatic.com',
     stylesheet: `https://fonts.googleapis.com/css2?${kohoan.googleFonts.join(
       '&',
-    )}&${index.googleFonts.join('&')}&display=swap`,
+    )}&display=swap`,
   }; // See https://csswizardry.com/2020/05/the-fastest-google-fonts/
   return (
     <>

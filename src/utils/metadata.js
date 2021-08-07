@@ -12,7 +12,6 @@ export const index = {
   title: 'Trasnlating Japanese Gardens',
   description:
     'A collection of essays that offers alternative takes on historical Japanese gardens, attempting to uncover the messages delivered with garden design',
-  googleFonts: ['family=Playfair+Display:wght@600'],
 };
 export const kohoan = {
   title: 'Koho-an Temple | 孤篷庵',
@@ -21,7 +20,6 @@ export const kohoan = {
   googleFonts: [
     'family=Libre+Baskerville:ital,wght@0,400;0,700;1,400',
     'family=Playfair+Display+SC:wght@400',
-    'family=Playfair+Display:wght@600',
   ],
 };
 export const ryoanji = {
