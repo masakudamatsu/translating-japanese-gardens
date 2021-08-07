@@ -204,7 +204,7 @@ export const font = {
         mobile: xHeight('mobile'),
         desktop: xHeight('desktop'),
       },
-      weight: 600,
+      weight: cormorantGaramond.fontWeight,
       lineHeightRatio: {
         mobile: {xHeight: 2, betweenLines: 5},
         desktop: {xHeight: 4, betweenLines: 11},
