@@ -1,6 +1,7 @@
 describe('Integration test with visual testing', () => {
   it('Loads the homepage', () => {
     cy.visit('/');
+    cy.document().its('fonts.status').should('equal', 'loaded');
     cy.scrollTo('bottom', {duration: 2000}); // Scroll to the bottom so all the images will be loaded before taking a snapshot
     // Percy docs recommends scroll-to-bottomjs
     // https://docs.percy.io/docs/capturing-lazy-loading-images#examples
@@ -18,6 +19,7 @@ describe('Integration test with visual testing', () => {
   pages.forEach(page => {
     it(`Loads ${page} page`, () => {
       cy.visit(`/${page}`);
+      cy.document().its('fonts.status').should('equal', 'loaded');
       cy.scrollTo('bottom', {duration: 2000}); // Longer duration won't load more images anyway
       cy.scrollTo('top'); // Scroll up to reveal the top app bar
       cy.findByTestId('top-app-bar').should('be.visible');
