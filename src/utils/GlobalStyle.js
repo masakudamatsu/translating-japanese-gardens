@@ -1,9 +1,101 @@
 import {createGlobalStyle} from 'styled-components';
 import {colour} from 'src/utils/colorScheme';
+import {
+  cormorant,
+  cormorantGaramond,
+  cormorantGaramondItalic,
+  cormorantSCBold,
+  cormorantSCSemiBold,
+  libreBaskervilleRegular,
+  libreBaskervilleRegularItalic,
+  playfairDisplay,
+  playfairDisplaySC,
+} from 'src/utils/fontMetrics';
 
 // glyphhanger --whitelist=龍安寺孤篷庵 --subset=ShipporiMinchoB1-Medium.ttf
 const GlobalStyle = createGlobalStyle`
 /* Self-hosted fonts */
+@font-face {
+  font-family: 'Cormorant';
+  src: url('fonts/Cormorant-Bold-subset.woff2') format('woff2'),
+       url('fonts/Cormorant-Bold-subset.zopfli.woff') format('woff'),
+       url('fonts/Cormorant-Bold-subset.ttf') format('truetype');
+  font-style: normal;
+  font-weight: ${cormorant.fontWeight};
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('fonts/CormorantGaramond-SemiBold-subset.woff2') format('woff2'),
+       url('fonts/CormorantGaramond-SemiBold-subset.zopfli.woff') format('woff'),
+       url('fonts/CormorantGaramond-SemiBold-subset.ttf') format('truetype');
+  font-style: normal;
+  font-weight: ${cormorantGaramond.fontWeight};
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Cormorant Garamond Italic';
+  src: url('fonts/CormorantGaramond-SemiBoldItalic-subset.woff2') format('woff2'),
+       url('fonts/CormorantGaramond-SemiBoldItalic-subset.zopfli.woff') format('woff'),
+       url('fonts/CormorantGaramond-SemiBoldItalic-subset.ttf') format('truetype');
+  font-style: ${cormorantGaramondItalic.fontStyle};
+  font-weight: ${cormorantGaramondItalic.fontWeight};
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Cormorant SC Semi-bold';
+  src: url('fonts/CormorantSC-SemiBold-subset.woff2') format('woff2'),
+       url('fonts/CormorantSC-SemiBold-subset.zopfli.woff') format('woff'),
+       url('fonts/CormorantSC-SemiBold-subset.ttf') format('truetype');
+  font-style: normal;
+  font-weight: ${cormorantSCSemiBold.fontWeight};
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Cormorant SC Bold';
+  src: url('fonts/CormorantSC-Bold-subset.woff2') format('woff2'),
+       url('fonts/CormorantSC-Bold-subset.zopfli.woff') format('woff'),
+       url('fonts/CormorantSC-Bold-subset.ttf') format('truetype');
+  font-style: normal;
+  font-weight: ${cormorantSCBold.fontWeight};
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Libre Baskerville';
+  src: url('fonts/LibreBaskerville-Regular-subset.woff2') format('woff2'),
+       url('fonts/LibreBaskerville-Regular-subset.zopfli.woff') format('woff'),
+       url('fonts/LibreBaskerville-Regular-subset.ttf') format('truetype');
+  font-style: normal;
+  font-weight: ${libreBaskervilleRegular.fontWeight};
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Libre Baskerville Italic';
+  src: url('fonts/LibreBaskerville-Italic-subset.woff2') format('woff2'),
+       url('fonts/LibreBaskerville-Italic-subset.zopfli.woff') format('woff'),
+       url('fonts/LibreBaskerville-Italic-subset.ttf') format('truetype');
+  font-style: ${libreBaskervilleRegularItalic.fontStyle};
+  font-weight: ${libreBaskervilleRegularItalic.fontWeight};
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('fonts/PlayfairDisplay-SemiBold-subset.woff2') format('woff2'),
+       url('fonts/PlayfairDisplay-SemiBold-subset.zopfli.woff') format('woff'),
+       url('fonts/PlayfairDisplay-SemiBold-subset.ttf') format('truetype');
+  font-style: normal;
+  font-weight: ${playfairDisplay.fontWeight};
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Playfair Display SC';
+  src: url('fonts/PlayfairDisplaySC-Regular-subset.woff2') format('woff2'),
+       url('fonts/PlayfairDisplaySC-Regular-subset.zopfli.woff') format('woff'),
+       url('fonts/PlayfairDisplaySC-Regular-subset.ttf') format('truetype');
+  font-style: normal;
+  font-weight: ${playfairDisplaySC.fontWeight};
+  font-display: swap;
+}
 @font-face {
   font-family: 'Shippori Mincho';
   src: url('fonts/ShipporiMincho-Medium-subset.woff2') format('woff2'),

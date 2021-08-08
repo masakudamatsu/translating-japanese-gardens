@@ -9,13 +9,21 @@ describe('renders UI as expected', () => {
   test('Italic', () => {
     const {container} = render(<Cite.Italic />);
     expect(container).toMatchInlineSnapshot(`
-      .c0 {
+      .Main__Kohoan-sc-1ebpejr-2 .c0 {
+        font-family: 'Libre Baskerville Italic','Verdana',serif;
         font-style: italic;
+        font-weight: 400;
+      }
+
+      .Main__Ryoanji-sc-1ebpejr-1 .c0 {
+        font-family: 'Cormorant Garamond Italic','Times New Roman',serif;
+        font-style: italic;
+        font-weight: 600;
       }
 
       <div>
         <cite
-          class="c0"
+          class="c0 "
         />
       </div>
     `);

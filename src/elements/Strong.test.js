@@ -9,7 +9,9 @@ test('renders UI as expected', () => {
   const {container} = render(<Strong />);
   expect(container).toMatchInlineSnapshot(`
     .Main__Ryoanji-sc-1ebpejr-1 .c0 {
+      font-family: 'Cormorant Garamond Italic','Times New Roman',serif;
       font-style: italic;
+      font-weight: 600;
     }
 
     <div>

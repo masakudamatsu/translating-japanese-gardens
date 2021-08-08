@@ -22,36 +22,14 @@ import Span from '../elements/Span';
 import SubSection from '../elements/SubSection';
 import Youtube from '../components/Youtube';
 
-import {index, kohoan} from 'src/utils/metadata';
+import {kohoan} from 'src/utils/metadata';
 
 export default function Kohoan() {
-  const webfont = {
-    server: 'https://fonts.gstatic.com',
-    stylesheet: `https://fonts.googleapis.com/css2?${kohoan.googleFonts.join(
-      '&',
-    )}&${index.googleFonts.join('&')}&display=swap`,
-  }; // See https://csswizardry.com/2020/05/the-fastest-google-fonts/
   return (
     <>
       <Head>
         <title>{kohoan.title}</title>
         <meta name="description" content={kohoan.description} />
-        {/*** Web font loading ***/}
-        <link rel="preconnect" href={webfont.server} />
-        {/* For faster web font loading. */}
-        <link rel="preload" as="style" href={webfont.stylesheet} />
-        {/* For faster web font loading. */}
-        <link
-          rel="stylesheet"
-          href={webfont.stylesheet}
-          media="print"
-          onLoad="this.media='all'"
-        />
-        {/* For actually reading the @font-face stylesheet. It's also a fallback for browsers incompatible with <link rel="preload" />. */}
-        <noscript>
-          <link rel="stylesheet" href={webfont.stylesheet} />
-        </noscript>
-        {/* Fallback for JavaScript-disabled browsers.  */}
       </Head>
       <Layout currentPage="kohoan">
         <Main.Kohoan>

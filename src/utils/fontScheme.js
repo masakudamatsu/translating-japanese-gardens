@@ -1,8 +1,11 @@
 import {
   cormorant,
   cormorantGaramond,
-  cormorantSC,
-  libreBaskerville,
+  cormorantGaramondItalic,
+  cormorantSCSemiBold,
+  cormorantSCBold,
+  libreBaskervilleRegular,
+  libreBaskervilleRegularItalic,
   playfairDisplay,
   playfairDisplaySC,
   reforma1918grisItalica,
@@ -88,13 +91,13 @@ export const font = {
   },
   kohoan: {
     article: {
-      family: libreBaskerville.fontFamily,
-      metrics: libreBaskerville.fontMetrics,
+      family: libreBaskervilleRegular.fontFamily,
+      metrics: libreBaskervilleRegular.fontMetrics,
       xHeight: {
         mobile: xHeight('mobile'),
         desktop: xHeight('desktop'),
       },
-      weight: 400,
+      weight: libreBaskervilleRegular.fontWeight,
       lineHeightRatio: {
         mobile: {xHeight: 1, betweenLines: 2},
         desktop: {xHeight: 4, betweenLines: 9},
@@ -119,7 +122,7 @@ export const font = {
         mobile: xHeight('mobile'),
         desktop: xHeight('desktop'),
       },
-      weight: 400,
+      weight: playfairDisplaySC.fontWeight,
       lineHeightRatio: {
         mobile: {xHeight: 2, betweenLines: 3},
         desktop: {xHeight: 4, betweenLines: 7},
@@ -146,7 +149,7 @@ export const font = {
         mobile: xHeight('mobile') * Math.pow(scale, 1),
         tablet: xHeight('mobile') * Math.pow(scale, 2),
       },
-      weight: 600,
+      weight: playfairDisplay.fontWeight,
       lineHeightRatio: {
         mobile: {xHeight: 1, betweenLines: 1},
       },
@@ -163,7 +166,7 @@ export const font = {
         mobile: xHeight('mobile') * scale,
         desktop: xHeight('desktop') * scale,
       },
-      weight: 600,
+      weight: playfairDisplay.fontWeight,
       lineHeightRatio: {
         mobile: {xHeight: 5, betweenLines: 7},
       },
@@ -177,12 +180,17 @@ export const font = {
         mobile: xHeight('mobile'),
         desktop: xHeight('desktop'),
       },
-      weight: 700,
+      weight: playfairDisplay.fontWeight,
       lineHeightRatio: {
         mobile: {xHeight: 5, betweenLines: 8}, // Set the line height to be [ x-height +  cap-height ], assuming the cap-to-x height ratio is 8:5.
       },
       letterSpacing: '0.02em',
       textTransform: 'uppercase',
+    },
+    italic: {
+      family: libreBaskervilleRegularItalic.fontFamily,
+      style: libreBaskervilleRegularItalic.fontStyle,
+      weight: libreBaskervilleRegularItalic.fontWeight,
     },
     kanji: {
       family: shipporiMincho.fontFamily,
@@ -204,7 +212,7 @@ export const font = {
         mobile: xHeight('mobile'),
         desktop: xHeight('desktop'),
       },
-      weight: 600,
+      weight: cormorantGaramond.fontWeight,
       lineHeightRatio: {
         mobile: {xHeight: 2, betweenLines: 5},
         desktop: {xHeight: 4, betweenLines: 11},
@@ -222,18 +230,25 @@ export const font = {
       },
     },
     abbr: {
-      family: cormorantSC.fontFamily,
+      family: cormorantSCSemiBold.fontFamily,
       letterSpacing: '0.01em',
       textTransform: 'lowercase',
     },
+    cite: {
+      italic: {
+        family: cormorantGaramondItalic.fontFamily,
+        style: cormorantGaramondItalic.fontStyle,
+        weight: cormorantGaramondItalic.fontWeight,
+      },
+    },
     figCaption: {
-      family: cormorantSC.fontFamily,
-      metrics: cormorantSC.fontMetrics,
+      family: cormorantSCSemiBold.fontFamily,
+      metrics: cormorantSCSemiBold.fontMetrics,
       xHeight: {
         mobile: xHeight('mobile'),
         desktop: xHeight('desktop'),
       },
-      weight: 600,
+      weight: cormorantSCSemiBold.fontWeight,
       lineHeightRatio: {
         mobile: {xHeight: 2, betweenLines: 3},
         desktop: {xHeight: 4, betweenLines: 7},
@@ -253,14 +268,14 @@ export const font = {
       textAlign: 'right',
     },
     h1: {
-      family: cormorantSC.fontFamily,
-      metrics: cormorantSC.fontMetrics,
+      family: cormorantSCBold.fontFamily,
+      metrics: cormorantSCBold.fontMetrics,
       xHeight: {
         mobile: xHeight('mobile') * Math.pow(scale, 2),
         tablet: xHeight('mobile') * Math.pow(scale, 3),
         desktop: xHeight('desktop') * Math.pow(scale, 3),
       },
-      weight: 700,
+      weight: cormorantSCBold.fontWeight,
       lineHeightRatio: {
         mobile: {xHeight: 2, betweenLines: 1},
       },
@@ -287,7 +302,7 @@ export const font = {
         mobile: xHeight('mobile') * scale,
         desktop: xHeight('desktop') * scale,
       },
-      weight: 700,
+      weight: cormorant.fontWeight,
       lineHeightRatio: {
         mobile: {xHeight: 5, betweenLines: 8}, // Set the line height to be [ x-height +  cap-height ], assuming the cap-to-x height ratio is 8:5.
       },
@@ -301,7 +316,7 @@ export const font = {
         mobile: xHeight('mobile'),
         desktop: xHeight('desktop'),
       },
-      weight: 700,
+      weight: cormorant.fontWeight,
       lineHeightRatio: {
         mobile: {xHeight: 5, betweenLines: 8}, // Set the line height to be [ x-height +  cap-height ], assuming the cap-to-x height ratio is 8:5.
       },
@@ -314,9 +329,14 @@ export const font = {
       weight: shipporiMincho.fontWeight,
     },
     spanLeadIn: {
-      family: cormorantSC.fontFamily,
+      family: cormorantSCSemiBold.fontFamily,
       letterSpacing: '0.01em',
       wordSpacing: '-0.05em',
+    },
+    strong: {
+      family: cormorantGaramondItalic.fontFamily,
+      style: cormorantGaramondItalic.fontStyle,
+      weight: cormorantGaramondItalic.fontWeight,
     },
   },
   topAppBar: {

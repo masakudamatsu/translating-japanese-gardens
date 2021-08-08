@@ -5,6 +5,7 @@ export const cormorant = {
     xHeight: 402,
     capHeight: 642,
   }, // measured by myself
+  fontWeight: 700,
 };
 
 export const cormorantGaramond = {
@@ -14,25 +15,58 @@ export const cormorantGaramond = {
     xHeight: 398,
     capHeight: 633,
   },
+  fontWeight: 600,
 };
 
-export const cormorantSC = {
-  fontFamily: "'Cormorant SC', 'Times New Roman', serif",
+export const cormorantGaramondItalic = {
+  fontFamily: "'Cormorant Garamond Italic', 'Times New Roman', serif",
+  fontMetrics: {
+    unitsPerEm: 1000,
+    xHeight: 398,
+    capHeight: 633,
+  },
+  fontStyle: 'italic',
+  fontWeight: 600,
+};
+
+export const cormorantSCSemiBold = {
+  fontFamily: "'Cormorant SC Semi-bold', 'Times New Roman', serif",
   fontMetrics: {
     unitsPerEm: 1000,
     xHeight: 471,
     capHeight: 630,
   }, // measured by myself
+  fontWeight: 600,
 };
 
-export const libreBaskerville = {
+export const cormorantSCBold = {
+  fontFamily: "'Cormorant SC Bold', 'Times New Roman', serif",
+  fontMetrics: {
+    unitsPerEm: 1000,
+    xHeight: 471,
+    capHeight: 630,
+  }, // measured by myself
+  fontWeight: 700,
+};
+
+export const libreBaskervilleRegular = {
   fontFamily: "'Libre Baskerville', 'Verdana', serif", // Verdana is sans-serif, but its letter height and width matches a lot closer than Georgia, Trebuchet, or Times
-  fontWeight: 400,
   fontMetrics: {
     unitsPerEm: 1000,
     xHeight: 535,
     capHeight: 775,
   }, // measured by myself
+  fontWeight: 400,
+};
+export const libreBaskervilleRegularItalic = {
+  fontFamily: "'Libre Baskerville Italic', 'Verdana', serif", // Verdana is sans-serif, but its letter height and width matches a lot closer than Georgia, Trebuchet, or Times
+  fontMetrics: {
+    unitsPerEm: 1000,
+    xHeight: 535,
+    capHeight: 775,
+  }, // measured by myself
+  fontStyle: 'italic',
+  fontWeight: 400,
 };
 
 export const playfairDisplay = {
@@ -42,6 +76,7 @@ export const playfairDisplay = {
     xHeight: 515,
     capHeight: 710,
   }, // measured by myself
+  fontWeight: 600,
 };
 
 export const playfairDisplaySC = {
@@ -51,6 +86,7 @@ export const playfairDisplaySC = {
     xHeight: 610,
     capHeight: 710,
   }, // measured by myself
+  fontWeight: 400,
 };
 
 export const reforma1918blanca = {
