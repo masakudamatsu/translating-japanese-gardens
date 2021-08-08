@@ -6,7 +6,7 @@
   "scripts": {
     "build": "next build && next export",
     "ci": "start-server-and-test start http://localhost:3000 ci:tests",
-    "ci:tests": "npm-run-all --parallel lint test:coverage:unit test:coverage:e2e snapshot",
+    "ci:tests": "npm-run-all --parallel lint test:coverage:unit test:coverage:e2e",
     "postci:tests": "npm run report:combined",
     "commit": "git-cz",
     "cy:open": "cypress open --env coverage=false",
