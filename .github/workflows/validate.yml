@@ -6,13 +6,17 @@ jobs:
     steps:
       - name: 'Checkout the repo'
         uses: actions/checkout@v2
-      - name: 'Run Percy with Cypress'
-        uses: cypress-io/github-action@v2
+      - name: 'Install Node'
+        uses: actions/setup-node@v2
         with:
-          build: npm run build
-          start: npm start
-          wait-on: 'http://localhost:3000'
-          command: npm run snapshot
+          node-version: '14'
+          cache: 'npm'
+      - name: 'Install repo'
+        run: npm install
+      - name: 'Build the site'
+        run: npm run build
+      - name: 'Run Percy with Cypress'
+        run: npm run snapshot
         env:
           PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
   eslint-jest-cypress:
