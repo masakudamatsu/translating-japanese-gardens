@@ -9,11 +9,10 @@ const description = index.description;
 const url = 'https://translating-japanese-gardens.pages.dev';
 
 const favicon = {
-  svg: '/logo.svg',
+  svg: '/favicon.svg',
   ico: '/favicon.ico',
-  appleTouch: 'apple-touch-icon.png',
-  safariPinnedTab: '/safari-pinned-tab.svg',
-  color: '#4a4a4a',
+  appleTouch: '/favicon180.png',
+  color: '#214F5A',
 }; // See https://dev.to/masakudamatsu/favicon-nightmare-how-to-maintain-sanity-3al7
 
 const structuredData = {
@@ -38,22 +37,10 @@ export default function App({Component, pageProps}) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/*** Favicon ***/}
         <link rel="icon" type="image/svg+xml" href={favicon.svg} />
-        {/* SVG-favicon-compatible browsers */}
-        <link rel="alternate icon" href={favicon.ico} />
-        {/* SVG-favicon-incompatible browsers */}
         <link rel="apple-touch-icon" href={favicon.appleTouch} />
-        {/*  iOS Home Screen */}
         <meta name="apple-mobile-web-app-title" content={title} />
-        {/*  Android Chrome */}
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="application-name" content={title} />
-        {/*  MacOS Safari pinned tab / touch bar */}
-        <link
-          rel="mask-icon"
-          href={favicon.safariPinnedTab}
-          color={favicon.color}
-        />
-        {/* Android Chrome tab color */}
         <meta name="theme-color" content={favicon.color} />
         {/*** Structured data ***/}
         <script
