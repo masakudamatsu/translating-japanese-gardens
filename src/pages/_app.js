@@ -2,9 +2,11 @@ import Head from 'next/head';
 
 import GlobalStyle from 'src/utils/GlobalStyle';
 
-const title = 'Template Next.js Site';
-const description = 'Template code for Next.js sites';
-const url = 'https://github.com/masakudamatsu/nextjs-template';
+import {index} from 'src/utils/metadata';
+
+const title = index.title;
+const description = index.description;
+const url = 'https://translating-japanese-gardens.pages.dev';
 
 const favicon = {
   svg: '/logo.svg',
@@ -34,9 +36,6 @@ export default function App({Component, pageProps}) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* This tag would cause an error if it were in _document.js. See https://github.com/vercel/next.js/blob/master/errors/no-document-viewport-meta.md */}
-        <title>{title}</title> <meta name="description" content={description} />
-        {/* If a single-page app; otherwise add a title to each page instead */}{' '}
         {/*** Favicon ***/}
         <link rel="icon" type="image/svg+xml" href={favicon.svg} />
         {/* SVG-favicon-compatible browsers */}
