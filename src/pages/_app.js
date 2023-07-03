@@ -2,17 +2,11 @@ import Head from 'next/head';
 
 import GlobalStyle from 'src/utils/GlobalStyle';
 
-const title = 'Template Next.js Site';
-const description = 'Template code for Next.js sites';
-const url = 'https://github.com/masakudamatsu/nextjs-template';
+import {index} from 'src/utils/metadata';
 
-const favicon = {
-  svg: '/logo.svg',
-  ico: '/favicon.ico',
-  appleTouch: 'apple-touch-icon.png',
-  safariPinnedTab: '/safari-pinned-tab.svg',
-  color: '#4a4a4a',
-}; // See https://dev.to/masakudamatsu/favicon-nightmare-how-to-maintain-sanity-3al7
+const title = index.title;
+const description = index.description;
+const url = 'https://translating-japanese-gardens.pages.dev';
 
 const structuredData = {
   applicationCategory: 'DesignApplication',
@@ -34,28 +28,12 @@ export default function App({Component, pageProps}) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* This tag would cause an error if it were in _document.js. See https://github.com/vercel/next.js/blob/master/errors/no-document-viewport-meta.md */}
-        <title>{title}</title> <meta name="description" content={description} />
-        {/* If a single-page app; otherwise add a title to each page instead */}{' '}
-        {/*** Favicon ***/}
-        <link rel="icon" type="image/svg+xml" href={favicon.svg} />
-        {/* SVG-favicon-compatible browsers */}
-        <link rel="alternate icon" href={favicon.ico} />
-        {/* SVG-favicon-incompatible browsers */}
-        <link rel="apple-touch-icon" href={favicon.appleTouch} />
-        {/*  iOS Home Screen */}
-        <meta name="apple-mobile-web-app-title" content={title} />
-        {/*  Android Chrome */}
+        {/*** Favicon (https://dev.to/masakudamatsu/favicon-nightmare-how-to-maintain-sanity-3al7) ***/}
+        <link rel="icon" href="/favicon.ico" sizes="48x48" />
+        <link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <meta name="application-name" content={title} />
-        {/*  MacOS Safari pinned tab / touch bar */}
-        <link
-          rel="mask-icon"
-          href={favicon.safariPinnedTab}
-          color={favicon.color}
-        />
-        {/* Android Chrome tab color */}
-        <meta name="theme-color" content={favicon.color} />
+        <meta name="theme-color" content="#214F5A" />
         {/*** Structured data ***/}
         <script
           type="application/ld+json"
