@@ -8,13 +8,6 @@ const title = index.title;
 const description = index.description;
 const url = 'https://translating-japanese-gardens.pages.dev';
 
-const favicon = {
-  svg: '/favicon.svg',
-  ico: '/favicon.ico',
-  appleTouch: '/apple-touch-icon.png',
-  color: '#214F5A',
-}; // See https://dev.to/masakudamatsu/favicon-nightmare-how-to-maintain-sanity-3al7
-
 const structuredData = {
   applicationCategory: 'DesignApplication',
   genre: 'color',
@@ -35,13 +28,12 @@ export default function App({Component, pageProps}) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/*** Favicon ***/}
-        <link rel="icon" type="image/svg+xml" href={favicon.svg} />
-        <link rel="apple-touch-icon" href={favicon.appleTouch} />
-        <meta name="apple-mobile-web-app-title" content={title} />
+        {/*** Favicon (https://dev.to/masakudamatsu/favicon-nightmare-how-to-maintain-sanity-3al7) ***/}
+        <link rel="icon" href="/favicon.ico" sizes="48x48" />
+        <link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <meta name="application-name" content={title} />
-        <meta name="theme-color" content={favicon.color} />
+        <meta name="theme-color" content="#214F5A" />
         {/*** Structured data ***/}
         <script
           type="application/ld+json"
