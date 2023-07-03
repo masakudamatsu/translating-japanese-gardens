@@ -11,7 +11,7 @@ const url = 'https://translating-japanese-gardens.pages.dev';
 const favicon = {
   svg: '/favicon.svg',
   ico: '/favicon.ico',
-  appleTouch: '/favicon180.png',
+  appleTouch: '/apple-touch-icon.png',
   color: '#214F5A',
 }; // See https://dev.to/masakudamatsu/favicon-nightmare-how-to-maintain-sanity-3al7
 
