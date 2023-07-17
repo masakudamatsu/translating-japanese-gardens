@@ -82,6 +82,11 @@ const Navigation = ({currentPage, navShown, setNavShown}) => {
       >
         <NavigationItem
           currentPage={currentPage}
+          pageName="/"
+          textContent="Home"
+        />
+        <NavigationItem
+          currentPage={currentPage}
           pageName="kohoan"
           textContent="Koho-an"
         />
