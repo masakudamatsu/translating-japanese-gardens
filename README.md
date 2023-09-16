@@ -26,7 +26,7 @@ Blog posts typically insert images between paragraphs of text. But the amount of
 
 In terms of messages delivered to the reader, an image may belong to the previous paragraph but not to the following one. If so, the vertical whitespace should be smaller above the image than below the image. To be more precise, the whitespace above (below) the image should be equal to the space between lines of text (between paragraphs). 
 
-To achieve such whitespace hierarchy, I use the technique known as text-cropping to remove an extra space in text boxes above the cap-height or x-height of text and below the baseline of text. It enables us to control the whitespaces between paragraphs of text and between an image and a paragraph in the same fashion: just use the same value of `margin-top`.
+To achieve such whitespace hierarchy, I use the technique known as _text crop_ (see [Kevin Powell's article in 2018](https://medium.com/eightshapes-llc/cropping-away-negative-impacts-of-line-height-84d744e016ce)) to remove an extra space in text boxes above the cap-height or x-height of text and below the baseline of text. It enables us to control the whitespaces between paragraphs of text and between an image and a paragraph in the same fashion: just use the same value of `margin-top`.
 
 ### Linear-gradient CSS art for background texture
 
