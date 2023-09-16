@@ -4,9 +4,7 @@ A blog for a Japanese garden design enthusiast (that is, me) to articulate his t
 
 ## URLs
 
-- Index page: https://translating-japanese-gardens.pages.dev
-- Ryoan-ji Rock Garden: https://translating-japanese-gardens.pages.dev/ryoanji
-- Koho-an Temple: https://translating-japanese-gardens.pages.dev/kohoan
+https://translating-japanese-gardens.pages.dev
 
 Hosted by [Cloudflare Pages](https://pages.cloudflare.com), which I have chosen for an excellent developer experience that it provides.
 
@@ -32,7 +30,7 @@ To achieve such whitespace hierarchy, I use the technique known as text-cropping
 
 ### Linear-gradient CSS art for background texture
 
-For wide screens, both sides of each blog article are lined with historical Japanese patterns (_shippo_ for Ryoan-ji; _seigaiha_ for Koho-an), inspired by East Asian hanging scrolls ([_kakejiku_](https://en.wikipedia.org/wiki/Hanging_scroll).
+For wide screens, both sides of each blog article are lined with historical Japanese patterns (_shippo_ for Ryoan-ji; _seigaiha_ for Koho-an), inspired by East Asian hanging scrolls ([_kakejiku_](https://en.wikipedia.org/wiki/Hanging_scroll)).
 
 To implement these patterns, I use the `linear-gradient()` CSS function by borrowing ideas from Lea Verou's [CSS3 Patterns Gallery](https://projects.verou.me/css3patterns/).
 
