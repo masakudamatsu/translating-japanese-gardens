@@ -16,7 +16,6 @@ import Main from '../elements/Main';
 import P from '../elements/P';
 import Span from '../elements/Span';
 import Section from '../elements/Section';
-import Hr from '../elements/Hr';
 import Layout from '../components/Layout';
 import Spacer from 'src/elements/Spacer';
 import Strong from '../elements/Strong';
