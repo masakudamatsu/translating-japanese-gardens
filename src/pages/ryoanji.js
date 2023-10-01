@@ -441,7 +441,7 @@ export default function Ryoanji() {
                 so easy to forget the simple principle of happiness that the
                 Buddha discovered in the 5th century <Abbr>BC</Abbr>. With its
                 minimal, yet profound composition of 15 rocks, Ryoan-ji Rock
-                Garden has been there since the early 16th century to reminds us
+                Garden has been there since the early 16th century to remind us
                 of the teaching of the Buddha.
               </P>
             </Section>
