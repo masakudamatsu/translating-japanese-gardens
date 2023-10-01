@@ -38,7 +38,9 @@ export default function Kohoan() {
               <FigureFullbleed>
                 <ImageWithPlaceholder
                   kohoan={false}
-                  src="/kohoan/bosen-garden-view.jpg"
+                  sizes="(min-width: 1080px) 941px, (min-width: 740px) 87.5vw, 100vw"
+                  srcset="/kohoan/bosen-garden-view.jpg 1200w, /kohoan/bosen-garden-view-941.jpg 941w"
+                  src="/kohoan/bosen-garden-view-941.jpg"
                   width={1200}
                   height={800}
                   alt="A garden is picture-framed with a hanging paper screen from above, sliding paper screens on both sides, and the wooden veranda from below."
@@ -307,7 +309,9 @@ export default function Kohoan() {
               <FigureWithMargin>
                 <ImageWithPlaceholder
                   kohoan
-                  src="/kohoan/kohoan-stone-pavement-middle.jpg"
+                  sizes="(min-width: 920px) 682px, (min-width: 760px) calc(56.43vw + 174px), (min-width: 660px) calc(38.75vw + 296px), (min-width: 500px) calc(77.86vw + 54px), 100vw"
+                  srcset="/kohoan/kohoan-stone-pavement-middle.jpg 1260w, /kohoan/kohoan-stone-pavement-middle-682.jpg 682w"
+                  src="/kohoan/kohoan-stone-pavement-middle-682.jpg"
                   width={1260}
                   height={1680}
                   alt="The straight stone pavement leads to a pine tree at its end."
@@ -329,7 +333,9 @@ export default function Kohoan() {
               <FigureWithMargin>
                 <ImageWithPlaceholder
                   kohoan
-                  src="/kohoan/kohoan-stone-pavement-end.jpeg"
+                  sizes="(min-width: 920px) 682px, (min-width: 760px) calc(56.43vw + 174px), (min-width: 660px) calc(38.75vw + 296px), (min-width: 500px) calc(77.86vw + 54px), 100vw"
+                  srcset="/kohoan/kohoan-stone-pavement-end.jpeg 1316w, /kohoan/kohoan-stone-pavement-end-682.jpeg 682w"
+                  src="/kohoan/kohoan-stone-pavement-end-682.jpeg"
                   width={1316}
                   height={2248}
                   alt="Flat-top stones are laid out to form a right-angled footpath, turning to the right in front of the pine tree behind which a roofed bench is seen."
@@ -394,7 +400,9 @@ export default function Kohoan() {
               <FigureWithMargin>
                 <ImageWithPlaceholder
                   kohoan
-                  src="/kohoan/kohoan-main-entrance.jpeg"
+                  sizes="(min-width: 920px) 682px, (min-width: 760px) calc(56.43vw + 174px), (min-width: 660px) calc(38.75vw + 296px), (min-width: 500px) calc(77.86vw + 54px), 100vw"
+                  srcset="/kohoan/kohoan-main-entrance.jpeg 1280w, /kohoan/kohoan-main-entrance-682.jpeg 682w"
+                  src="/kohoan/kohoan-main-entrance-682.jpeg"
                   width={1280}
                   height={851}
                   alt="A roofed gate with its doors closed is seen in between pine trees. Seen behind the gate is the top of the gable roof of the temple building."
@@ -448,7 +456,9 @@ export default function Kohoan() {
               <FigureWithMargin>
                 <ImageWithPlaceholder
                   kohoan
-                  src="/kohoan/kohoan-main-entrance-roof.png"
+                  sizes="(min-width: 920px) 682px, (min-width: 760px) calc(56.43vw + 174px), (min-width: 660px) calc(38.75vw + 296px), (min-width: 500px) calc(77.86vw + 54px), 100vw"
+                  srcset="/kohoan/kohoan-main-entrance-roof.png 1260w, /kohoan/kohoan-main-entrance-roof-682.png 682w"
+                  src="/kohoan/kohoan-main-entrance-roof-682.png"
                   width={1260}
                   height={1141}
                   alt="The roof of the gate, when zoomed up, shows the horizontal layers of two materials in different texture alternating one after another"
@@ -482,7 +492,9 @@ export default function Kohoan() {
               <FigureWithMargin>
                 <ImageWithPlaceholder
                   kohoan
-                  src="/kohoan/kohoan-main-hall-garden-from-entrance.jpeg"
+                  sizes="(min-width: 920px) 682px, (min-width: 760px) calc(56.43vw + 174px), (min-width: 660px) calc(38.75vw + 296px), (min-width: 500px) calc(77.86vw + 54px), 100vw"
+                  srcset="/kohoan/kohoan-main-hall-garden-from-entrance.jpeg 1323w, /kohoan/kohoan-main-hall-garden-from-entrance-682.jpeg 682w"
+                  src="/kohoan/kohoan-main-hall-garden-from-entrance-682.jpeg"
                   width={1323}
                   height={1803}
                   alt="A sand-floored garden is seen through between the wooden pillars of the entrance hall."
@@ -581,7 +593,9 @@ export default function Kohoan() {
               <FigureWithMargin>
                 <ImageWithPlaceholder
                   kohoan
-                  src="/kohoan/kohoan-main-hall-garden-on-right.jpeg"
+                  sizes="(min-width: 920px) 682px, (min-width: 760px) calc(56.43vw + 174px), (min-width: 660px) calc(38.75vw + 296px), (min-width: 500px) calc(77.86vw + 54px), 100vw"
+                  srcset="/kohoan/kohoan-main-hall-garden-on-right.jpeg 1200w, /kohoan/kohoan-main-hall-garden-on-right-682.jpeg 682w"
+                  src="/kohoan/kohoan-main-hall-garden-on-right-682.jpeg"
                   width={1200}
                   height={800}
                   alt="The sand-floored garden, now seen on the right, is made of red clay sand in the colour of light red-brown."
@@ -682,7 +696,9 @@ export default function Kohoan() {
               <FigureWithMargin>
                 <ImageWithPlaceholder
                   kohoan
-                  src="/kohoan/kohoan-southwest-garden.jpeg"
+                  sizes="(min-width: 920px) 682px, (min-width: 760px) calc(56.43vw + 174px), (min-width: 660px) calc(38.75vw + 296px), (min-width: 500px) calc(77.86vw + 54px), 100vw"
+                  srcset="/kohoan/kohoan-southwest-garden-1364.jpeg 1364w, /kohoan/kohoan-southwest-garden-682.jpeg 682w"
+                  src="/kohoan/kohoan-southwest-garden-682.jpeg"
                   width={1470}
                   height={1126}
                   alt="Small pebbles in dark blue grey are packed on the near side of the garden while a winding sequence of larger flat-top stones leads the way to a garden on the far side."
@@ -721,7 +737,9 @@ export default function Kohoan() {
               <FigureWithMargin>
                 <ImageWithPlaceholder
                   kohoan
-                  src="/kohoan/kohoan-tea-house-garden.jpeg"
+                  sizes="(min-width: 920px) 682px, (min-width: 760px) calc(56.43vw + 174px), (min-width: 660px) calc(38.75vw + 296px), (min-width: 500px) calc(77.86vw + 54px), 100vw"
+                  srcset="/kohoan/kohoan-tea-house-garden.jpeg 1143w, /kohoan/kohoan-tea-house-garden-682.jpeg 682w"
+                  src="/kohoan/kohoan-tea-house-garden-682.jpeg"
                   width={1143}
                   height={1428}
                   alt="A straight sequence of flat-top stones, embedded in the rectangular tataki floor, leads to a cylindrical stone furniture with a wooden ladle on its top. The dark blue gray pebbles are packed along the straight edge of the tataki floor on the left."
@@ -960,7 +978,9 @@ export default function Kohoan() {
               <FigureWithBorder>
                 <FigureWithBorder.Border>
                   <ImageWithPlaceholder
-                    src="/kohoan/nijiri-guchi.png"
+                    sizes="(min-width: 920px) 635px, (min-width: 780px) calc(50vw + 185px), (min-width: 660px) calc(37vw + 274px), (min-width: 500px) calc(77.86vw + 20px), calc(100vw - 68px)"
+                    srcset="/kohoan/nijiri-guchi.png 1000w, /kohoan/nijiri-guchi-635.png 635w"
+                    src="/kohoan/nijiri-guchi-635.png"
                     width={1000}
                     height={419}
                     alt="A person enters a teahouse through nijiri-guchi by crouching down and sticking his/her head and hands into the teahouse first, seen from the front and from the side in a black and white architetural illustration."
@@ -1002,7 +1022,9 @@ export default function Kohoan() {
               <FigureWithMargin>
                 <ImageWithPlaceholder
                   kohoan
-                  src="/kohoan/bosen-interior.jpeg"
+                  sizes="(min-width: 920px) 682px, (min-width: 760px) calc(56.43vw + 174px), (min-width: 660px) calc(38.75vw + 296px), (min-width: 500px) calc(77.86vw + 54px), 100vw"
+                  srcset="/kohoan/bosen-interior.jpeg 1200w, /kohoan/bosen-interior-682.jpeg 682w"
+                  src="/kohoan/bosen-interior-682.jpeg"
                   width={1200}
                   height={805}
                   alt="A tatami-floored spacious room is seen from a low angle, with the right half of the back wall as an alcove displayiing a hanging scroll of calligraphy."
@@ -1249,7 +1271,9 @@ export default function Kohoan() {
               <FigureFullbleed>
                 <ImageWithPlaceholder
                   kohoan={false} // Emphasis
-                  src="/kohoan/bosen-garden-view.jpg"
+                  sizes="(min-width: 1080px) 941px, (min-width: 740px) 87.5vw, 100vw"
+                  srcset="/kohoan/bosen-garden-view.jpg 1200w, /kohoan/bosen-garden-view-941.jpg 941w"
+                  src="/kohoan/bosen-garden-view-941.jpg"
                   width={1200}
                   height={800}
                   alt="The teahouse garden is picture-framed with the hanging paper screen from above, sliding paper screens on both sides, and the wooden veranda from below. The garden is floored with the pebbles on the near side and an expanse of moss and a hedge on the far side. A stone lantern stands in between. The circular hole on the top of the stone hand basin is seen on the near side."
@@ -1341,7 +1365,9 @@ export default function Kohoan() {
               <FigureWithMargin>
                 <ImageWithPlaceholder
                   kohoan
-                  src="/kohoan/bosen-interior.jpeg"
+                  sizes="(min-width: 920px) 682px, (min-width: 760px) calc(56.43vw + 174px), (min-width: 660px) calc(38.75vw + 296px), (min-width: 500px) calc(77.86vw + 54px), 100vw"
+                  srcset="/kohoan/bosen-interior.jpeg 1200w, /kohoan/bosen-interior-682.jpeg 682w"
+                  src="/kohoan/bosen-interior-682.jpeg"
                   width={1200}
                   height={805}
                   alt="The tatami-floored spacious room is seen from a low angle with the tokonoma alcove at the back wall and the ceiling rich in wood grains."
@@ -1448,7 +1474,9 @@ export default function Kohoan() {
               <FigureWithBorder>
                 <FigureWithBorder.Border>
                   <ImageWithPlaceholder
-                    src="/kohoan/kohoan-floor-plan.png"
+                    sizes="(min-width: 920px) 635px, (min-width: 780px) calc(50vw + 185px), (min-width: 660px) calc(37vw + 274px), (min-width: 500px) calc(77.86vw + 20px), calc(100vw - 68px)"
+                    srcset="/kohoan/kohoan-floor-plan.png 745w, /kohoan/kohoan-floor-plan-635.png 635w"
+                    src="/kohoan/kohoan-floor-plan-635.png"
                     width={745}
                     height={700}
                     alt="An architectural drawing of Koho-an seen from above, with arrows overlaid over the stone bridge and the front gate at bottom-left, the straight stone pavement on the left side, the main hall's veranda on the top side, the narrow teahouse garden between the main hall on the left and the temple's bigger garden on the right, and the veranda and the inside of Teahouse Bosen to the left of the end of the teahouse garden."

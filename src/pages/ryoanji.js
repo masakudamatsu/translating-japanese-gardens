@@ -16,7 +16,6 @@ import Main from '../elements/Main';
 import P from '../elements/P';
 import Span from '../elements/Span';
 import Section from '../elements/Section';
-import Hr from '../elements/Hr';
 import Layout from '../components/Layout';
 import Spacer from 'src/elements/Spacer';
 import Strong from '../elements/Strong';
@@ -44,7 +43,9 @@ export default function Ryoanji() {
               <FigureCarousel>
                 <FigureCarousel.Spring>
                   <ImageWithPlaceholder
-                    src="/ryoanji/ryoanji-banner-spring-large.jpg"
+                    sizes="(min-width: 1100px) 941px, (min-width: 740px) 87.35vw, 100vw"
+                    srcset="/ryoanji/ryoanji-banner-spring-1882.jpg 1882w, /ryoanji/ryoanji-banner-spring-1630.jpg 1630w, /ryoanji/ryoanji-banner-spring-1330.jpg 1330w, /ryoanji/ryoanji-banner-spring-941.jpg 941w"
+                    src="/ryoanji/ryoanji-banner-spring-941.jpg"
                     width={1882}
                     height={1405}
                     alt="Ryoan-ji Rock Garden in spring"
@@ -54,7 +55,9 @@ export default function Ryoanji() {
                 </FigureCarousel.Spring>
                 <FigureCarousel.Summer>
                   <ImageWithPlaceholder
-                    src="/ryoanji/ryoanji-banner-summer-large.jpg"
+                    sizes="(min-width: 1100px) 941px, (min-width: 740px) 87.35vw, 100vw"
+                    srcset="/ryoanji/ryoanji-banner-summer-1882.jpg 1882w, /ryoanji/ryoanji-banner-summer-1630.jpg 1630w, /ryoanji/ryoanji-banner-summer-1330.jpg 1330w, /ryoanji/ryoanji-banner-summer-941.jpg 941w"
+                    src="/ryoanji/ryoanji-banner-summer-941.jpg"
                     width={1882}
                     height={1405}
                     alt="Ryoan-ji Rock Garden in summer"
@@ -64,7 +67,9 @@ export default function Ryoanji() {
                 </FigureCarousel.Summer>
                 <FigureCarousel.Autumn>
                   <ImageWithPlaceholder
-                    src="/ryoanji/ryoanji-banner-autumn-large.jpg"
+                    sizes="(min-width: 1100px) 941px, (min-width: 740px) 87.35vw, 100vw"
+                    srcset="/ryoanji/ryoanji-banner-autumn-1882.jpg 1882w, /ryoanji/ryoanji-banner-autumn-1630.jpg 1630w, /ryoanji/ryoanji-banner-autumn-1330.jpg 1330w, /ryoanji/ryoanji-banner-autumn-941.jpg 941w"
+                    src="/ryoanji/ryoanji-banner-autumn-941.jpg"
                     width={1882}
                     height={1411}
                     alt="Ryoan-ji Rock Garden in autumn"
@@ -74,7 +79,9 @@ export default function Ryoanji() {
                 </FigureCarousel.Autumn>
                 <FigureCarousel.Winter>
                   <ImageWithPlaceholder
-                    src="/ryoanji/ryoanji-banner-winter-large.jpg"
+                    sizes="(min-width: 1100px) 941px, (min-width: 740px) 87.35vw, 100vw"
+                    srcset="/ryoanji/ryoanji-banner-winter-1882.jpg 1882w, /ryoanji/ryoanji-banner-winter-1630.jpg 1630w, /ryoanji/ryoanji-banner-winter-1330.jpg 1330w, /ryoanji/ryoanji-banner-winter-941.jpg 941w"
+                    src="/ryoanji/ryoanji-banner-winter-941.jpg"
                     width={1882}
                     height={1411}
                     alt="Ryoan-ji Rock Garden in winter"
@@ -119,7 +126,7 @@ export default function Ryoanji() {
               <Spacer.BoxParagraphToText />
               <P>
                 The key to understand this cryptic garden is to see it from
-                where You’re supposed to: halfway between the left and right
+                where you’re supposed to: halfway between the left and right
                 edges of this rectangular garden, indicated with the gray arrow
                 in the floor plan below:
               </P>
@@ -182,7 +189,9 @@ export default function Ryoanji() {
                 <Spacer.H3LineToBox />
                 <FigureFullbleed>
                   <ImageWithPlaceholder
-                    src="/ryoanji/ryoanji-banner-summer-large.jpg"
+                    sizes="(min-width: 1100px) 941px, (min-width: 740px) 87.35vw, 100vw"
+                    srcset="/ryoanji/ryoanji-banner-summer-1882.jpg 1882w, /ryoanji/ryoanji-banner-summer-1630.jpg 1630w, /ryoanji/ryoanji-banner-summer-1330.jpg 1330w, /ryoanji/ryoanji-banner-summer-941.jpg 941w"
+                    src="/ryoanji/ryoanji-banner-summer-941.jpg"
                     width={1882}
                     height={1405}
                     alt="The garden's ground is covered with light gray gravels on which two rocks are placed on a patch of moss on the left, three on the right, and nothing in between."
@@ -203,7 +212,9 @@ export default function Ryoanji() {
                 <Spacer.H3LineToBox />
                 <FigureFullbleed>
                   <ImageWithPlaceholder
-                    src="/ryoanji/ryoanji-look-left-large.jpg"
+                    sizes="(min-width: 1100px) 941px, (min-width: 740px) 87.35vw, 100vw"
+                    srcset="/ryoanji/ryoanji-look-left-1882.jpg 1882w, /ryoanji/ryoanji-look-left-1630.jpg 1630w, /ryoanji/ryoanji-look-left-1330.jpg 1330w, /ryoanji/ryoanji-look-left-941.jpg 941w"
+                    src="/ryoanji/ryoanji-look-left-941.jpg"
                     width={1882}
                     height={1405}
                     alt="The garden's ground is covered with gravels on which the two rocks are placed on the right, another set of five rocks on the left, and nothing in between."
@@ -222,7 +233,9 @@ export default function Ryoanji() {
                 <Spacer.H3LineToBox />
                 <FigureFullbleed>
                   <ImageWithPlaceholder
-                    src="/ryoanji/ryoanji-look-right-large.jpg"
+                    sizes="(min-width: 1100px) 941px, (min-width: 740px) 87.35vw, 100vw"
+                    srcset="/ryoanji/ryoanji-look-right-1882.jpg 1882w, /ryoanji/ryoanji-look-right-1630.jpg 1630w, /ryoanji/ryoanji-look-right-1330.jpg 1330w, /ryoanji/ryoanji-look-right-941.jpg 941w"
+                    src="/ryoanji/ryoanji-look-right-941.jpg"
                     width={1882}
                     height={1405}
                     alt="The garden's ground is covered with gravels on which the three rocks are placed on the left, a pair of rocks on the middle-left, and another group of rocks on the right."
@@ -309,9 +322,11 @@ export default function Ryoanji() {
                 <Spacer.H3LineToBox />
                 <FigureWithMargin>
                   <ImageWithPlaceholder
-                    src="/ryoanji/ryoanji-leftmost.jpg"
-                    width={1490}
-                    height={695}
+                    sizes="(min-width: 960px) 682px, (min-width: 800px) calc(52.86vw + 185px), (min-width: 680px) calc(36vw + 307px), (min-width: 520px) calc(73.57vw + 66px), 100vw"
+                    srcset="/ryoanji/ryoanji-leftmost-1364.jpg 1364w, /ryoanji/ryoanji-leftmost-682.jpg 682w"
+                    src="/ryoanji/ryoanji-leftmost-682.jpg"
+                    width={1364}
+                    height={650}
                     alt="A large rough-looking rock in the middle, flanked by a pair of smaller rocks, all of which sit on a patch of moss. One flat-top rock embedded in the gravel ground to the left of the moss patch, and another to the right."
                     quality={100}
                   />
@@ -332,9 +347,11 @@ export default function Ryoanji() {
                 <Spacer.H3LineToBox />
                 <FigureWithMargin>
                   <ImageWithPlaceholder
-                    src="/ryoanji/ryoanji-rightmost.jpg"
-                    width={1496}
-                    height={713}
+                    sizes="(min-width: 960px) 682px, (min-width: 800px) calc(52.86vw + 185px), (min-width: 680px) calc(36vw + 307px), (min-width: 520px) calc(73.57vw + 66px), 100vw"
+                    srcset="/ryoanji/ryoanji-rightmost-1364.jpg 1364w, /ryoanji/ryoanji-rightmost-682.jpg 682w"
+                    src="/ryoanji/ryoanji-rightmost-682.jpg"
+                    width={1364}
+                    height={636}
                     alt="A medium-sized rock sits in the center of a moss patch, flanked by a pair of flat-top rocks embedded in the moss."
                     quality={100}
                   />
@@ -424,7 +441,7 @@ export default function Ryoanji() {
                 so easy to forget the simple principle of happiness that the
                 Buddha discovered in the 5th century <Abbr>BC</Abbr>. With its
                 minimal, yet profound composition of 15 rocks, Ryoan-ji Rock
-                Garden has been there since the early 16th century to reminds us
+                Garden has been there since the early 16th century to remind us
                 of the teaching of the Buddha.
               </P>
             </Section>

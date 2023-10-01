@@ -12,7 +12,7 @@ const mockProps = {
     lowercase: 'ryoanji',
   },
   image: {
-    src: '/images/ryoanji-banner-spring-large.jpg',
+    src: '/images/ryoanji-banner-spring-1882.jpg',
     width: 1882,
     height: 1405,
     alt: 'A view of Ryoanji Rock Garden',
