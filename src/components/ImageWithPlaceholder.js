@@ -62,6 +62,8 @@ const ImageStyled = styled.img`
 `; // https://github.com/styled-components/styled-components/issues/1198#issuecomment-425650423
 
 const ImageWithPlaceholder = ({
+  sizes,
+  srcset,
   src,
   alt,
   width,
@@ -92,6 +94,8 @@ const ImageWithPlaceholder = ({
       onError={() => setStatus('error')}
       onLoad={() => setStatus('loaded')}
       ref={img}
+      sizes={sizes}
+      srcSet={srcset}
       src={src}
       alt={alt}
       width={width}
@@ -133,7 +137,9 @@ const ImageWithPlaceholder = ({
 ImageWithPlaceholder.propTypes = {
   kohoan: PropTypes.bool,
   priority: PropTypes.bool,
+  sizes: PropTypes.string,
   src: PropTypes.string.isRequired,
+  srcset: PropTypes.string,
 };
 
 export default ImageWithPlaceholder;
