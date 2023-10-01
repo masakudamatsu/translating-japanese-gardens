@@ -127,7 +127,7 @@ export default function Ryoanji() {
               <Spacer.BoxParagraphToText />
               <P>
                 The key to understand this cryptic garden is to see it from
-                where You’re supposed to: halfway between the left and right
+                where you’re supposed to: halfway between the left and right
                 edges of this rectangular garden, indicated with the gray arrow
                 in the floor plan below:
               </P>
