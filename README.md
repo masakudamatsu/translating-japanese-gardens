@@ -41,6 +41,9 @@ To implement these patterns, I use the `linear-gradient()` CSS function by borro
 ### Static site generation
 Next.js is used for static site generation (SSG) to shorten page load time while using React for code maintainability.
 
+### Image optimization
+For mobile device users, the images of narrower widths will be downloaded to minimize the waiting time for seeing the pictures of gardens. This is implemented by manually making up the `<img>` elements with the `sizes` and `srcset` attributes.
+
 ### Subsetted and self-hosted custom fonts
 
 Each blog post and its title on the index page uses a different font to reflect the design principle of each garden ([Cormorant](https://www.behance.net/gallery/28579883/Cormorant-an-open-source-display-font-family) for Ryoan-ji; [Playfaire Display](https://fonts.google.com/specimen/Playfair+Display) and [Libre Baskerville](https://fonts.google.com/specimen/Libre+Baskerville) for Koho-an). The index page has its own custom font ([Reforma](https://pampatype.com/reforma)). Plus, Japanese characters, rendered in [Shippori Miincho](https://fonts.google.com/specimen/Shippori+Mincho+B1/), are used for decoration purposes.
